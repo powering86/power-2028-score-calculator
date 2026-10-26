@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="2028학년도 대학별 학생부 교과·출결 환산 시작품"
+    />
+    <title>POWER 2028 학생부 환산기</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="ocr.css" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="#">Ⓟ <span>POWER 2028</span></a>
+      <nav>
+        <button data-go="input">성적 입력</button
+        ><button data-go="universities">대학 선택</button
+        ><button data-go="compare">비교</button
+        ><button id="privacyBtn">개인정보</button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">2028 ADMISSION SCORE LAB</p>
+          <h1>내 학생부,<br /><em>대학의 방식으로</em> 다시 보기</h1>
+          <p>
+            대학별 반영 교과·상위 과목·성취도·출결 기준을 원문 근거와 함께
+            계산합니다.
+          </p>
+        </div>
+        <div class="hero-card">
+          <span>전체 대학·캠퍼스</span><strong id="catalogCount">220</strong
+          ><small
+            ><span id="sourceConnectedCount">0</span>개 원문 추출 완료</small
+          ><i></i
+          ><b
+            ><span id="reviewedCampusCount">0</span>개 캠퍼스 원문 검수 완료<br />정확
+            계산 <span id="verifiedCampusCount">0</span> · 계산 차단/일부
+            <span id="blockedCampusCount">0</span></b
+          >
+        </div>
+      </section>
+      <section class="warning" role="alert">
+        <b>계산 전 반드시 확인하세요.</b>
+        <p>
+          이 계산 결과는 2028학년도 대학입학전형 시행계획을 기준으로 한 참고
+          자료입니다. 시행계획은 최종 모집요강이 아니며 모집인원, 반영 교과,
+          환산식과 지원 자격이 변경될 수 있습니다. 실제 지원 전 반드시 해당
+          대학의 최종 모집요강과 공식 계산기를 확인하세요.
+        </p>
+      </section>
+      <section id="input" class="workspace">
+        <div class="section-head">
+          <div>
+            <span>01</span>
+            <h2>학생 성적 입력</h2>
+          </div>
+          <div class="seg">
+            <button class="active" data-mode="detail">상세 입력</button
+            ><button data-mode="quick">간편 입력</button>
+          </div>
+        </div>
+        <div id="quickPanel" class="panel hidden">
+          <div class="fields">
+            <label
+              >전 교과 평균등급<input
+                id="quickAll"
+                type="number"
+                min="1"
+                max="5"
+                step=".01"
+                placeholder="2.3" /></label
+            ><label
+              >주요 교과 평균등급<input
+                id="quickCore"
+                type="number"
+                min="1"
+                max="5"
+                step=".01"
+                placeholder="2.1" /></label
+            ><label
+              >진로선택 평균 성취도<select id="quickAch">
+                <option value="">선택</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+              </select></label
+            ><label
+              >미인정 결석<input id="quickAbs" type="number" min="0" value="0"
+            /></label>
+          </div>
+          <div class="warning">
+            <b>간편 입력과 상세 입력의 차이</b>
+            <p>
+              평균등급만으로 공식 산식이 완성되는 전형은 간편 계산이 가능합니다.
+              반영 교과·이수학점·상위 과목·성취도 분포를 쓰는 전형은 정확한
+              점수를 만들 수 없어 ‘제한적 추정’ 또는 ‘상세 입력 필요’로
+              안내합니다.
+            </p>
+          </div>
+        </div>
+        <div id="detailPanel" class="panel">
+          <section class="ocr-box" aria-labelledby="ocrTitle">
+            <div class="ocr-intro">
+              <div>
+                <span class="camera-mark">◉</span>
+                <p class="eyebrow">LOCAL PHOTO OCR</p>
+                <h3 id="ocrTitle">성적표를 찍어 과목을 불러오세요</h3>
+                <p>
+                  이미지와 인식 결과는 이 브라우저 안에서만 처리됩니다.
+                  이름·학번·주민등록번호는 가리고 촬영하세요.
+                </p>
+              </div>
+              <label class="capture-btn"
+                >카메라로 찍기 / 사진 선택<input
+                  id="transcriptImage"
+                  type="file"
+                  accept="image/*"
+                  capture="environment"
+              /></label>
+            </div>
+            <div id="ocrWorkspace" class="ocr-workspace hidden">
+              <div class="image-pane">
+                <img id="ocrPreview" alt="선택한 성적표 미리보기" /><button
+                  id="removeImage"
+                  class="danger"
+                >
+                  사진 제거
+                </button>
+              </div>
+              <div class="ocr-status">
+                <b id="ocrStatus">사진 준비 완료</b
+                ><progress id="ocrProgress" max="1" value="0"></progress>
+                <p id="ocrHint">
+                  글자와 표가 화면을 가득 채우고, 수평이 맞은 사진이 잘
+                  인식됩니다.
+                </p>
+                <button id="runOcr" class="primary">
+                  브라우저에서 글자 인식
+                </button>
+              </div>
+            </div>
+            <div id="ocrReview" class="ocr-review hidden">
+              <div class="review-head">
+                <div>
+                  <h4>인식 결과 확인</h4>
+                  <p>잘못 읽은 항목을 고친 뒤 체크된 행만 추가하세요.</p>
+                </div>
+                <button id="applyOcr" class="primary">확인한 과목 추가</button>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>추가</th>
+                      <th>학년</th>
+                      <th>학기</th>
+                      <th>교과</th>
+                      <th>과목명</th>
+                      <th>학점</th>
+                      <th>등급</th>
+                      <th>성취도</th>
+                      <th>인식 신뢰</th>
+                    </tr>
+                  </thead>
+                  <tbody id="ocrReviewBody"></tbody>
+                </table>
+              </div>
+              <details>
+                <summary>OCR 원문 보기·수정</summary>
+                <textarea id="ocrRawText" rows="9"></textarea
+                ><button id="reparseOcr">수정한 원문 다시 분석</button>
+              </details>
+            </div>
+          </section>
+          <div class="toolbar">
+            <button id="addRow">+ 과목 추가</button
+            ><button id="duplicateRow">행 복사</button
+            ><label>학년<select id="bulkGrade"><option>1</option><option>2</option><option>3</option></select></label
+            ><label>학기<select id="bulkSemester"><option>1</option><option>2</option></select></label
+            ><label>행 수<input id="bulkCount" type="number" min="1" max="30" value="8" /></label
+            ><button id="bulkSemesterAdd">학기 일괄 추가</button
+            ><label class="file-btn"
+              >CSV 불러오기<input
+                id="csvInput"
+                type="file"
+                accept=".csv,text/csv" /></label
+            ><label class="file-btn"
+              >나이스 엑셀 불러오기<input
+                id="neisExcelInput"
+                type="file"
+                accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" /></label
+            ><label class="file-btn"
+              >JSON 불러오기<input
+                id="jsonInput"
+                type="file"
+                accept=".json,application/json" /></label
+            ><button id="exportCsv">CSV 내보내기</button
+            ><button id="exportJson">JSON 내보내기</button
+            ><label
+              ><input id="localSave" type="checkbox" /> 이 기기에 저장</label
+            ><button id="clearAll" class="danger">전체 삭제</button>
+          </div>
+          <p id="excelImportStatus" class="note" aria-live="polite"></p>
+          <div id="inputRequirementGuide" class="info-card" aria-live="polite">
+            대학·전형을 선택하면 정확 계산에 필요한 입력 열을 안내합니다.
+          </div>
+          <div class="table-wrap">
+            <table id="courseTable">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th data-field="grade">학년</th>
+                  <th data-field="semester">학기</th>
+                  <th data-field="subject">교과</th>
+                  <th data-field="name">과목명</th>
+                  <th data-field="type">유형</th>
+                  <th data-field="credits">학점</th>
+                  <th data-field="rankGrade">석차등급</th>
+                  <th data-field="achievement">성취도</th>
+                  <th data-field="passFail">P/F 여부</th>
+                  <th data-field="achievementScale">성취 단계</th>
+                  <th data-field="classSize">수강자 수</th>
+                  <th data-field="rank">석차</th>
+                  <th data-field="tiedRank">공동석차 인원</th>
+                  <th data-field="rawScore">원점수</th>
+                  <th data-field="mean">평균</th>
+                  <th data-field="stddev">표준편차</th>
+                  <th data-field="achievementRatio">성취도별 분포</th>
+                  <th data-field="achievementRate">현재 성취비율</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="attendance">
+            <h3>출결·봉사활동·학교폭력 입력</h3>
+            <label
+              >수업일수<input
+                data-att="schoolDays"
+                type="number"
+                min="0"
+                value="0" /></label
+            ><label
+              >전체 결석<input
+                data-att="absence"
+                type="number"
+                min="0"
+                value="0" /></label
+            ><label
+              >질병 결석<input
+                data-att="sickAbsence"
+                type="number"
+                min="0"
+                value="0" /></label
+            ><label
+              >미인정 결석<input
+                data-att="unexcusedAbsence"
+                type="number"
+                min="0"
+                value="0" /></label
+            ><label
+              >기타 결석<input
+                data-att="otherAbsence"
+                type="number"
+                min="0"
+                value="0" /></label
+            ><label
+              >미인정 지각<input
+                data-att="tardy"
+                type="number"
+                min="0"
+                value="0" /></label
+            ><label
+              >미인정 조퇴<input
+                data-att="early"
+                type="number"
+                min="0"
+                value="0" /></label
+            ><label
+              >미인정 결과<input
+                data-att="missingClass"
+                type="number"
+                min="0"
+                value="0" /></label
+            ><label
+              >1·2학년 개근 횟수<input
+                data-att="perfectAttendanceYears"
+                type="number"
+                min="0"
+                max="2"
+                value="0" /></label
+            ><label
+              >봉사활동 시간<input
+                data-att="volunteerHours"
+                type="number"
+                min="0"
+                value="0" /></label
+            ><label
+              >학교폭력 조치<select data-att="schoolViolenceLevel">
+                <option value="0">해당 없음</option>
+                <option value="1">1호</option>
+                <option value="2">2호</option>
+                <option value="3">3호</option>
+                <option value="4">4호</option>
+                <option value="5">5호</option>
+                <option value="6">6호</option>
+                <option value="7">7호</option>
+                <option value="8">8호</option>
+                <option value="9">9호</option>
+              </select></label
+            >
+          </div>
+        </div>
+      </section>
+      <section id="universities" class="workspace">
+        <div class="section-head">
+          <div>
+            <span>02</span>
+            <h2>대학·전형 선택</h2>
+          </div>
+          <input
+            id="search"
+            type="search"
+            placeholder="대학, 캠퍼스, 지역 검색"
+          />
+        </div>
+        <div class="uni-layout">
+          <aside>
+            <p><b id="uniCount">0</b> 개 표시</p>
+            <div id="universityList"></div>
+          </aside>
+          <div id="ruleCards" class="rule-cards"></div>
+        </div>
+      </section>
+      <section id="result" class="workspace">
+        <div class="section-head">
+          <div>
+            <span>03</span>
+            <h2>계산 결과·근거</h2>
+          </div>
+          <button id="calculateBtn" class="primary">선택 전형 계산</button>
+        </div>
+        <div id="resultView" class="empty">
+          대학과 전형을 선택하면 필요 입력값과 계산 가능 상태를 먼저
+          보여드립니다.
+        </div>
+      </section>
+      <section id="compare" class="workspace">
+        <div class="section-head">
+          <div>
+            <span>04</span>
+            <h2>대학 비교</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>대학</th>
+                <th>전형</th>
+                <th>반영 방식</th>
+                <th>진로선택</th>
+                <th>출결</th>
+                <th>환산점수</th>
+                <th>만점 대비</th>
+                <th>상태</th>
+                <th>원문</th>
+              </tr>
+            </thead>
+            <tbody id="compareBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <dialog id="privacy">
+      <button class="close">×</button>
+      <h2>성적은 브라우저 밖으로 나가지 않습니다</h2>
+      <p>
+        서버 전송·로그인·분석 스크립트가 없습니다. 로컬 저장은 사용자가 체크했을
+        때만 활성화됩니다.
+      </p>
+    </dialog>
+    <dialog id="excelReview" class="excel-review">
+      <button class="close" id="cancelExcelRows" aria-label="닫기">×</button>
+      <h2 id="excelReviewTitle">나이스 개인성적 엑셀 확인</h2>
+      <p id="excelReviewHint" class="note"></p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>선택</th><th>학년-학기</th><th>교과</th><th>과목</th><th>유형</th><th>학점</th><th>등급</th><th>성취도</th><th>원점수/평균/표준편차</th><th>수강자</th><th>원본 위치</th></tr>
+          </thead>
+          <tbody id="excelReviewBody"></tbody>
+        </table>
+      </div>
+      <div class="dialog-actions">
+        <button id="applyExcelRows" class="primary">선택한 과목 추가</button>
+      </div>
+    </dialog>
+    <script src="data/universities.js"></script>
+    <script src="data/score-rules.js"></script>
+    <script src="data/coverage.js"></script>
+    <script src="vendor/tesseract.min.js"></script>
+    <script src="ocr-parser.js"></script>
+    <script src="ocr.js"></script>
+    <script src="csv.js"></script>
+    <script src="record-io.js"></script>
+    <script src="vendor/zip.min.js"></script>
+    <script src="neis-parser.js"></script>
+    <script src="calculator.js"></script>
+    <script src="validator.js"></script>
+    <script src="evidence.js"></script>
+    <script src="app.js"></script>
+    <script src="neis-import.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6679 @@
+{
+  "summary": {
+    "generatedAt": "2026-10-24T16:46:20.575Z",
+    "catalogCount": 220,
+    "connectedSources": 220,
+    "extracted": 220,
+    "universitiesWithExactRules": 94,
+    "campusesWithExactRules": 110,
+    "reviewedCampuses": 220,
+    "blockedOrPartialCampuses": 110,
+    "unreviewedCampuses": 0,
+    "pending": 110
+  },
+  "rows": [
+    {
+      "raw": "가야대학교[본교](경남)",
+      "university": "가야대학교",
+      "campus": "본교",
+      "region": "경상남도",
+      "type": "사립",
+      "planId": "00000000000000252807",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252807&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "가야대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 9422,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 2,
+      "candidatePages": [
+        {
+          "page": 9,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "가천대학교[본교](경기)",
+      "university": "가천대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000253105",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253105&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "가천대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 14778,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 4,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 4
+        },
+        {
+          "page": 3,
+          "score": 2
+        },
+        {
+          "page": 6,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "가톨릭관동대학교[본교](강원)",
+      "university": "가톨릭관동대학교",
+      "campus": "본교",
+      "region": "강원특별자치도",
+      "type": "사립",
+      "planId": "00000000000000253403",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253403&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "가톨릭관동대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 22639,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 24,
+      "candidatePages": [
+        {
+          "page": 16,
+          "score": 11
+        },
+        {
+          "page": 15,
+          "score": 9
+        },
+        {
+          "page": 18,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "raw": "가톨릭꽃동네대학교[본교](충북)",
+      "university": "가톨릭꽃동네대학교",
+      "campus": "본교",
+      "region": "충청북도",
+      "type": "사립",
+      "planId": "00000000000000254382",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254382&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "가톨릭꽃동네대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 13002,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 17,
+      "candidatePages": [
+        {
+          "page": 9,
+          "score": 13
+        },
+        {
+          "page": 2,
+          "score": 9
+        },
+        {
+          "page": 11,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "raw": "가톨릭대학교[제3캠퍼스](서울)",
+      "university": "가톨릭대학교",
+      "campus": "제3캠퍼스",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253138",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253138&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "가톨릭대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 37429,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": [
+        {
+          "page": 30,
+          "score": 10
+        },
+        {
+          "page": 23,
+          "score": 9
+        },
+        {
+          "page": 31,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "가톨릭대학교[제2캠퍼스](서울)",
+      "university": "가톨릭대학교",
+      "campus": "제2캠퍼스",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253188",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253188&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "가톨릭대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 37495,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": [
+        {
+          "page": 30,
+          "score": 10
+        },
+        {
+          "page": 23,
+          "score": 9
+        },
+        {
+          "page": 31,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "가톨릭대학교[본교](경기)",
+      "university": "가톨릭대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000253101",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253101&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "가톨릭대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 37495,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": [
+        {
+          "page": 30,
+          "score": 10
+        },
+        {
+          "page": 23,
+          "score": 9
+        },
+        {
+          "page": 31,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "감리교신학대학교[본교](서울)",
+      "university": "감리교신학대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000252949",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252949&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "감리교신학대학교_2028학년도_입시_기본계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 5582,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 3,
+      "candidatePages": [
+        {
+          "page": 4,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "raw": "강남대학교[본교](경기)",
+      "university": "강남대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000252870",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252870&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "강남대학교_2028학년도_대학입학전형계획_주요사항.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 17388,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": [
+        {
+          "page": 6,
+          "score": 8
+        },
+        {
+          "page": 7,
+          "score": 8
+        },
+        {
+          "page": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "raw": "강서대학교[본교](서울)",
+      "university": "강서대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000252796",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252796&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "강서대학교_2028학년도_신입학전형_기본계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 42589,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 6,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "강원대학교[제4캠퍼스](강원)",
+      "university": "강원대학교",
+      "campus": "제4캠퍼스",
+      "region": "강원특별자치도",
+      "type": "국립",
+      "planId": "00000000000000253332",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253332&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "강원대학교_원주캠퍼스_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 7301,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": []
+    },
+    {
+      "raw": "강원대학교[제3캠퍼스](강원)",
+      "university": "강원대학교",
+      "campus": "제3캠퍼스",
+      "region": "강원특별자치도",
+      "type": "국립",
+      "planId": "00000000000000253328",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253328&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "강원대학교_강릉캠퍼스_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 9445,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": []
+    },
+    {
+      "raw": "강원대학교[제2캠퍼스](강원)",
+      "university": "강원대학교",
+      "campus": "제2캠퍼스",
+      "region": "강원특별자치도",
+      "type": "국립",
+      "planId": "00000000000000252619",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252619&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "강원대학교_삼척캠퍼스_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 8046,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": []
+    },
+    {
+      "raw": "강원대학교[본교](강원)",
+      "university": "강원대학교",
+      "campus": "본교",
+      "region": "강원특별자치도",
+      "type": "국립",
+      "planId": "00000000000000252746",
+      "sourceStatus": "verified",
+      "fileType": "archive",
+      "sourceUrl": "downloads/kangwon-chuncheon-2028-admission-plan.zip",
+      "sourceName": "강원대학교_춘천_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 11906,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": []
+    },
+    {
+      "raw": "건국대학교[본교](서울)",
+      "university": "건국대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000252912",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252912&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "건국대학교_서울_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 37251,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 6
+        },
+        {
+          "page": 49,
+          "score": 6
+        },
+        {
+          "page": 46,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "건국대학교(글로컬)[분교](충북)",
+      "university": "건국대학교(글로컬)",
+      "campus": "분교",
+      "region": "충청북도",
+      "type": "사립",
+      "planId": "00000000000000252701",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252701&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "건국대학교_글로컬_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 39858,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": [
+        {
+          "page": 40,
+          "score": 7
+        },
+        {
+          "page": 42,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "건양대학교[본교](충남)",
+      "university": "건양대학교",
+      "campus": "본교",
+      "region": "충청남도",
+      "type": "사립",
+      "planId": "00000000000000253607",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253607&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "건양대학교_2028학년도_대학입학전형_기본계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 23015,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 7,
+      "candidatePages": [
+        {
+          "page": 10,
+          "score": 5
+        },
+        {
+          "page": 11,
+          "score": 2
+        },
+        {
+          "page": 4,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "건양대학교[제2캠퍼스](대전)",
+      "university": "건양대학교",
+      "campus": "제2캠퍼스",
+      "region": "대전",
+      "type": "사립",
+      "planId": "00000000000000253603",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253603&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "건양대학교_2028학년도_대학입학전형_기본계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 23015,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 7,
+      "candidatePages": [
+        {
+          "page": 10,
+          "score": 5
+        },
+        {
+          "page": 11,
+          "score": 2
+        },
+        {
+          "page": 4,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "경기대학교[제2캠퍼스](서울)",
+      "university": "경기대학교",
+      "campus": "제2캠퍼스",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000252277",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252277&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "경기대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 30863,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": [
+        {
+          "page": 29,
+          "score": 11
+        },
+        {
+          "page": 30,
+          "score": 10
+        },
+        {
+          "page": 31,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "경기대학교[본교](경기)",
+      "university": "경기대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000252273",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252273&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "경기대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 30863,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": [
+        {
+          "page": 29,
+          "score": 11
+        },
+        {
+          "page": 30,
+          "score": 10
+        },
+        {
+          "page": 31,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "경남대학교[본교](경남)",
+      "university": "경남대학교",
+      "campus": "본교",
+      "region": "경상남도",
+      "type": "사립",
+      "planId": "00000000000000252456",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252456&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "경남대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 20519,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 22,
+      "candidatePages": [
+        {
+          "page": 12,
+          "score": 10
+        },
+        {
+          "page": 4,
+          "score": 5
+        },
+        {
+          "page": 11,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "경동대학교[제3캠퍼스](강원)",
+      "university": "경동대학교",
+      "campus": "제3캠퍼스",
+      "region": "강원특별자치도",
+      "type": "사립",
+      "planId": "00000000000000254590",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254590&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "경동대학교_2028학년도_대학입학전형계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 8712,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 8,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 7
+        },
+        {
+          "page": 6,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "경동대학교[제4캠퍼스](경기)",
+      "university": "경동대학교",
+      "campus": "제4캠퍼스",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000254594",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254594&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "경동대학교_2028학년도_대학입학전형계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 8712,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 8,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 7
+        },
+        {
+          "page": 6,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "경동대학교[본교](강원)",
+      "university": "경동대학교",
+      "campus": "본교",
+      "region": "강원특별자치도",
+      "type": "사립",
+      "planId": "00000000000000254586",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254586&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "경동대학교_2028학년도_대학입학전형계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 8712,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 8,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 7
+        },
+        {
+          "page": 6,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "경북대학교[본교](대구)",
+      "university": "경북대학교",
+      "campus": "본교",
+      "region": "대구",
+      "type": "국립",
+      "planId": "00000000000000252366",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252366&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "경북대학교_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 24407,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 12,
+      "candidatePages": []
+    },
+    {
+      "raw": "경상국립대학교[본교](경남)",
+      "university": "경상국립대학교",
+      "campus": "본교",
+      "region": "경상남도",
+      "type": "국립",
+      "planId": "00000000000000253544",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253544&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "경상국립대학교_2028학년도_대학입학전형_기본계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 32318,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": [
+        {
+          "page": 12,
+          "score": 11
+        },
+        {
+          "page": 10,
+          "score": 10
+        },
+        {
+          "page": 17,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "raw": "경성대학교[본교](부산)",
+      "university": "경성대학교",
+      "campus": "본교",
+      "region": "부산",
+      "type": "사립",
+      "planId": "00000000000000252826",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252826&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "경성대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 25976,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 18,
+          "score": 5
+        },
+        {
+          "page": 13,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "경운대학교[본교](경북)",
+      "university": "경운대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000252975",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252975&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "경운대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 7163,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 10,
+      "candidatePages": [
+        {
+          "page": 6,
+          "score": 10
+        }
+      ]
+    },
+    {
+      "raw": "경인교육대학교[본교](인천)",
+      "university": "경인교육대학교",
+      "campus": "본교",
+      "region": "인천",
+      "type": "국립",
+      "planId": "00000000000000253149",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253149&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "경인교육대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 1211,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": []
+    },
+    {
+      "raw": "경일대학교[본교](경북)",
+      "university": "경일대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000253223",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253223&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "경일대학교_2028학년도_대학입학전형_계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 35389,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 3,
+      "candidatePages": [
+        {
+          "page": 35,
+          "score": 3
+        },
+        {
+          "page": 6,
+          "score": 1
+        },
+        {
+          "page": 7,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "경희대학교[본교](서울)",
+      "university": "경희대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000252503",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252503&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "경희대학교_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 14274,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 1,
+      "candidatePages": [
+        {
+          "page": 6,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "계명대학교[본교](대구)",
+      "university": "계명대학교",
+      "campus": "본교",
+      "region": "대구",
+      "type": "사립",
+      "planId": "00000000000000254707",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254707&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "계명대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 43684,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": [
+        {
+          "page": 32,
+          "score": 11
+        },
+        {
+          "page": 33,
+          "score": 5
+        },
+        {
+          "page": 3,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "고려대학교[본교](서울)",
+      "university": "고려대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000252343",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252343&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "고려대학교_서울_2028학년도_입학전형시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 29833,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": [
+        {
+          "page": 22,
+          "score": 11
+        },
+        {
+          "page": 27,
+          "score": 4
+        },
+        {
+          "page": 4,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "고려대학교(세종)[분교](세종)",
+      "university": "고려대학교(세종)",
+      "campus": "분교",
+      "region": "세종",
+      "type": "사립",
+      "planId": "00000000000000254681",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254681&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "고려대학교_세종_2028학년도_입학전형시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 24287,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 15,
+      "candidatePages": [
+        {
+          "page": 22,
+          "score": 12
+        },
+        {
+          "page": 2,
+          "score": 8
+        },
+        {
+          "page": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "raw": "고신대학교[본교](부산)",
+      "university": "고신대학교",
+      "campus": "본교",
+      "region": "부산",
+      "type": "사립",
+      "planId": "00000000000000254900",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254900&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "고신대학교_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 32270,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": [
+        {
+          "page": 11,
+          "score": 9
+        },
+        {
+          "page": 12,
+          "score": 7
+        },
+        {
+          "page": 2,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "공주교육대학교[본교](충남)",
+      "university": "공주교육대학교",
+      "campus": "본교",
+      "region": "충청남도",
+      "type": "국립",
+      "planId": "00000000000000255047",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000255047&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "공주교육대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 579,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "학생부 정량 환산 미반영",
+      "extractionPriority": "낮음",
+      "markerScore": 6,
+      "candidatePages": []
+    },
+    {
+      "raw": "광신대학교[본교](전남광주)",
+      "university": "광신대학교",
+      "campus": "본교",
+      "region": "광주",
+      "type": "사립",
+      "planId": "00000000000000255094",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000255094&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "광신대학교_2028학년도_신입생_모집계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 37795,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "높음",
+      "markerScore": 16,
+      "candidatePages": [
+        {
+          "page": 17,
+          "score": 15
+        },
+        {
+          "page": 48,
+          "score": 15
+        },
+        {
+          "page": 16,
+          "score": 13
+        }
+      ]
+    },
+    {
+      "raw": "광운대학교[본교](서울)",
+      "university": "광운대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253438",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253438&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "광운대학교_2028학년도_신입학전형_주요사항.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 22435,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 17,
+          "score": 3
+        },
+        {
+          "page": 4,
+          "score": 2
+        },
+        {
+          "page": 3,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "광주가톨릭대학교[본교](전남광주)",
+      "university": "광주가톨릭대학교",
+      "campus": "본교",
+      "region": "전라남도",
+      "type": "사립",
+      "planId": "00000000000000252818",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252818&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "광주가톨릭대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 24969,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 4,
+      "candidatePages": [
+        {
+          "page": 4,
+          "score": 2
+        },
+        {
+          "page": 8,
+          "score": 2
+        },
+        {
+          "page": 9,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "광주교육대학교[본교](전남광주)",
+      "university": "광주교육대학교",
+      "campus": "본교",
+      "region": "광주",
+      "type": "국립",
+      "planId": "00000000000000253622",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253622&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "광주교육대학교_2028학년도_대학입학전형시행계획안.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 1508,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 14,
+      "candidatePages": []
+    },
+    {
+      "raw": "광주대학교[본교](전남광주)",
+      "university": "광주대학교",
+      "campus": "본교",
+      "region": "광주",
+      "type": "사립",
+      "planId": "00000000000000253786",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253786&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "광주대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 7798,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 2,
+          "score": 3
+        },
+        {
+          "page": 4,
+          "score": 2
+        },
+        {
+          "page": 5,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "광주여자대학교[본교](전남광주)",
+      "university": "광주여자대학교",
+      "campus": "본교",
+      "region": "광주",
+      "type": "사립",
+      "planId": "00000000000000252311",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252311&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "광주여자대학교_2028학년도_대학입학전형시행계획안.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 12585,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 12,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 8
+        },
+        {
+          "page": 8,
+          "score": 7
+        },
+        {
+          "page": 2,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "국립강릉원주대학교[본교](강원)",
+      "university": "국립강릉원주대학교",
+      "campus": "본교",
+      "region": "강원특별자치도",
+      "type": "국립",
+      "planId": "00000000000000253328",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253328&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": null,
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 9445,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": []
+    },
+    {
+      "raw": "국립강릉원주대학교[제2캠퍼스](강원)",
+      "university": "국립강릉원주대학교",
+      "campus": "제2캠퍼스",
+      "region": "강원특별자치도",
+      "type": "국립",
+      "planId": "00000000000000253332",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253332&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": null,
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 7301,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": []
+    },
+    {
+      "raw": "국립경국대학교[본교](경북)",
+      "university": "국립경국대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "국립",
+      "planId": "00000000000000253632",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253632&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국립경국대학교_2028학년도_대학입학전형시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 7109,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 16,
+      "candidatePages": []
+    },
+    {
+      "raw": "국립공주대학교[본교](충남)",
+      "university": "국립공주대학교",
+      "campus": "본교",
+      "region": "충청남도",
+      "type": "국립",
+      "planId": "00000000000000253296",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253296&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국립공주대학교_2028학년도_대학입학전형_시행계획안.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 35190,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": [
+        {
+          "page": 17,
+          "score": 7
+        },
+        {
+          "page": 18,
+          "score": 3
+        },
+        {
+          "page": 16,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "국립군산대학교[본교](전북)",
+      "university": "국립군산대학교",
+      "campus": "본교",
+      "region": "전북특별자치도",
+      "type": "국립",
+      "planId": "00000000000000254119",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254119&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국립군산대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 17091,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "높음",
+      "markerScore": 15,
+      "candidatePages": [
+        {
+          "page": 4,
+          "score": 8
+        },
+        {
+          "page": 3,
+          "score": 6
+        },
+        {
+          "page": 16,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "국립금오공과대학교[본교](경북)",
+      "university": "국립금오공과대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "국립",
+      "planId": "00000000000000253214",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253214&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국립금오공과대학교_2028학년도_대입전형_기본계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 26328,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 16,
+      "candidatePages": [
+        {
+          "page": 22,
+          "score": 12
+        },
+        {
+          "page": 24,
+          "score": 10
+        },
+        {
+          "page": 4,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "국립목포대학교[본교](전남광주)",
+      "university": "국립목포대학교",
+      "campus": "본교",
+      "region": "전라남도",
+      "type": "국립",
+      "planId": "00000000000000254182",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254182&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국립목포대학교_2028학년도_대학입학전형시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 22376,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "높음",
+      "markerScore": 17,
+      "candidatePages": [
+        {
+          "page": 9,
+          "score": 11
+        },
+        {
+          "page": 14,
+          "score": 11
+        },
+        {
+          "page": 18,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "raw": "국립목포대학교[제2캠퍼스](전남광주)",
+      "university": "국립목포대학교",
+      "campus": "제2캠퍼스",
+      "region": "전라남도",
+      "type": "국립",
+      "planId": "00000000000000254182",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254182&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": null,
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 22376,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "높음",
+      "markerScore": 17,
+      "candidatePages": [
+        {
+          "page": 9,
+          "score": 11
+        },
+        {
+          "page": 14,
+          "score": 11
+        },
+        {
+          "page": 18,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "raw": "국립목포해양대학교[본교](전남광주)",
+      "university": "국립목포해양대학교",
+      "campus": "본교",
+      "region": "전라남도",
+      "type": "국립",
+      "planId": "00000000000000252433",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252433&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국립목포해양대학교_2028학년도_대학입학전형_기본계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 3975,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 0,
+      "candidatePages": []
+    },
+    {
+      "raw": "국립부경대학교[본교](부산)",
+      "university": "국립부경대학교",
+      "campus": "본교",
+      "region": "부산",
+      "type": "국립",
+      "planId": "00000000000000253019",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253019&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국립부경대학교_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 51549,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 7,
+      "candidatePages": [
+        {
+          "page": 38,
+          "score": 6
+        },
+        {
+          "page": 42,
+          "score": 6
+        },
+        {
+          "page": 40,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "raw": "국립순천대학교[본교](전남광주)",
+      "university": "국립순천대학교",
+      "campus": "본교",
+      "region": "전라남도",
+      "type": "국립",
+      "planId": "00000000000000255043",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000255043&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국립순천대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 4436,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 7,
+      "candidatePages": [
+        {
+          "page": 33,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "raw": "국립창원대학교[제2캠퍼스](경남)",
+      "university": "국립창원대학교",
+      "campus": "제2캠퍼스",
+      "region": "경상남도",
+      "type": "국립",
+      "planId": "00000000000000254150",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254150&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국립창원대학교_거창남해캠퍼스_2028학년도_통합_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 17974,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 19,
+      "candidatePages": [
+        {
+          "page": 12,
+          "score": 13
+        },
+        {
+          "page": 13,
+          "score": 12
+        },
+        {
+          "page": 15,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "국립창원대학교[제3캠퍼스](경남)",
+      "university": "국립창원대학교",
+      "campus": "제3캠퍼스",
+      "region": "경상남도",
+      "type": "국립",
+      "planId": "00000000000000254154",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254154&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국립창원대학교_거창남해캠퍼스_2028학년도_통합_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 17974,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 19,
+      "candidatePages": [
+        {
+          "page": 12,
+          "score": 13
+        },
+        {
+          "page": 13,
+          "score": 12
+        },
+        {
+          "page": 15,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "국립창원대학교[본교](경남)",
+      "university": "국립창원대학교",
+      "campus": "본교",
+      "region": "경상남도",
+      "type": "국립",
+      "planId": "00000000000000254139",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254139&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국립창원대학교_창원캠퍼스_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 52666,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 20,
+      "candidatePages": [
+        {
+          "page": 24,
+          "score": 13
+        },
+        {
+          "page": 25,
+          "score": 13
+        },
+        {
+          "page": 28,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "국립한국교통대학교[본교](충북)",
+      "university": "국립한국교통대학교",
+      "campus": "본교",
+      "region": "충청북도",
+      "type": "국립",
+      "planId": "00000000000000253748",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253748&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국립한국교통대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 6259,
+      "ruleCount": 4,
+      "exactRuleCount": 4,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": []
+    },
+    {
+      "raw": "국립한국해양대학교[본교](부산)",
+      "university": "국립한국해양대학교",
+      "campus": "본교",
+      "region": "부산",
+      "type": "국립",
+      "planId": "00000000000000252649",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252649&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국립한국해양대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 28751,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": [
+        {
+          "page": 3,
+          "score": 7
+        },
+        {
+          "page": 8,
+          "score": 7
+        },
+        {
+          "page": 10,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "raw": "국립한밭대학교[본교](대전)",
+      "university": "국립한밭대학교",
+      "campus": "본교",
+      "region": "대전",
+      "type": "국립",
+      "planId": "00000000000000253158",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253158&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국립한밭대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 38368,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 19,
+      "candidatePages": [
+        {
+          "page": 23,
+          "score": 12
+        },
+        {
+          "page": 22,
+          "score": 8
+        },
+        {
+          "page": 24,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "raw": "국민대학교[본교](서울)",
+      "university": "국민대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253670",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253670&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "국민대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 46099,
+      "ruleCount": 3,
+      "exactRuleCount": 3,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 20,
+      "candidatePages": [
+        {
+          "page": 53,
+          "score": 19
+        },
+        {
+          "page": 51,
+          "score": 17
+        },
+        {
+          "page": 52,
+          "score": 11
+        }
+      ]
+    },
+    {
+      "raw": "극동대학교[본교](충북)",
+      "university": "극동대학교",
+      "campus": "본교",
+      "region": "충청북도",
+      "type": "사립",
+      "planId": "00000000000000252281",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252281&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "극동대학교_2028학년도_대학입학전형계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 14191,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 6,
+      "candidatePages": [
+        {
+          "page": 2,
+          "score": 5
+        },
+        {
+          "page": 13,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "금강대학교[본교](충남)",
+      "university": "금강대학교",
+      "campus": "본교",
+      "region": "충청남도",
+      "type": "사립",
+      "planId": "00000000000000255063",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000255063&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "금강대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 14277,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 6
+        },
+        {
+          "page": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "김천대학교[본교](경북)",
+      "university": "김천대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000255023",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000255023&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "김천대학교_2028학년도_대학입학전형_기본계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 17570,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 14,
+      "candidatePages": []
+    },
+    {
+      "raw": "나사렛대학교[본교](충남)",
+      "university": "나사렛대학교",
+      "campus": "본교",
+      "region": "충청남도",
+      "type": "사립",
+      "planId": "00000000000000253246",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253246&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "나사렛대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 18196,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 14,
+      "candidatePages": [
+        {
+          "page": 12,
+          "score": 12
+        },
+        {
+          "page": 13,
+          "score": 5
+        },
+        {
+          "page": 3,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "남부대학교[본교](전남광주)",
+      "university": "남부대학교",
+      "campus": "본교",
+      "region": "광주",
+      "type": "사립",
+      "planId": "00000000000000254712",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254712&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "남부대학교_2028학년도_대학입학전형시행계획안.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 9501,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 9
+        },
+        {
+          "page": 2,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "남서울대학교[본교](충남)",
+      "university": "남서울대학교",
+      "campus": "본교",
+      "region": "충청남도",
+      "type": "사립",
+      "planId": "00000000000000253474",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253474&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "남서울대학교_2028학년도_대학입학전형시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 33764,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 14,
+      "candidatePages": [
+        {
+          "page": 3,
+          "score": 13
+        },
+        {
+          "page": 10,
+          "score": 11
+        },
+        {
+          "page": 11,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "raw": "단국대학교[본교](경기)",
+      "university": "단국대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000252480",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252480&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "단국대학교_죽전캠퍼스_2028학년도_대학입학전형시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 48500,
+      "ruleCount": 2,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": [
+        {
+          "page": 34,
+          "score": 7
+        },
+        {
+          "page": 33,
+          "score": 6
+        },
+        {
+          "page": 35,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "단국대학교[제2캠퍼스](충남)",
+      "university": "단국대학교",
+      "campus": "제2캠퍼스",
+      "region": "충청남도",
+      "type": "사립",
+      "planId": "00000000000000252484",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252484&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "단국대학교_천안캠퍼스_2028학년도_대학입학전형시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 48500,
+      "ruleCount": 2,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": [
+        {
+          "page": 34,
+          "score": 7
+        },
+        {
+          "page": 33,
+          "score": 6
+        },
+        {
+          "page": 35,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "대구가톨릭대학교[본교](경북)",
+      "university": "대구가톨릭대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000254820",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254820&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "대구가톨릭대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 40269,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 36,
+          "score": 3
+        },
+        {
+          "page": 4,
+          "score": 2
+        },
+        {
+          "page": 5,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "대구교육대학교[본교](대구)",
+      "university": "대구교육대학교",
+      "campus": "본교",
+      "region": "대구",
+      "type": "국립",
+      "planId": "00000000000000255019",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000255019&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "대구교육대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 8384,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 10,
+          "score": 4
+        },
+        {
+          "page": 13,
+          "score": 4
+        },
+        {
+          "page": 9,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "대구대학교[본교](경북)",
+      "university": "대구대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000254307",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254307&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "대구대학교_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 41033,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 19,
+      "candidatePages": [
+        {
+          "page": 22,
+          "score": 11
+        },
+        {
+          "page": 20,
+          "score": 7
+        },
+        {
+          "page": 23,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "raw": "대구예술대학교[본교](경북)",
+      "university": "대구예술대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000253128",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253128&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "대구예술대학교_2028학년도_대학입학전형_기본계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 12473,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 4,
+      "candidatePages": [
+        {
+          "page": 12,
+          "score": 4
+        },
+        {
+          "page": 13,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "대구한의대학교[본교](경북)",
+      "university": "대구한의대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000255035",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000255035&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "대구한의대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 14336,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 12,
+      "candidatePages": [
+        {
+          "page": 5,
+          "score": 11
+        },
+        {
+          "page": 14,
+          "score": 11
+        },
+        {
+          "page": 6,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "raw": "대신대학교[본교](경북)",
+      "university": "대신대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000255059",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000255059&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "대신대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 1377,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 0,
+      "candidatePages": []
+    },
+    {
+      "raw": "대전가톨릭대학교[본교](세종)",
+      "university": "대전가톨릭대학교",
+      "campus": "본교",
+      "region": "세종",
+      "type": "사립",
+      "planId": "00000000000000252953",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252953&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "대전가톨릭대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 3199,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": []
+    },
+    {
+      "raw": "대전대학교[본교](대전)",
+      "university": "대전대학교",
+      "campus": "본교",
+      "region": "대전",
+      "type": "사립",
+      "planId": "00000000000000253324",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253324&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "대전대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 16260,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "높음",
+      "markerScore": 16,
+      "candidatePages": [
+        {
+          "page": 15,
+          "score": 10
+        },
+        {
+          "page": 7,
+          "score": 9
+        },
+        {
+          "page": 17,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "대전신학대학교[본교](대전)",
+      "university": "대전신학대학교",
+      "campus": "본교",
+      "region": "대전",
+      "type": "사립",
+      "planId": "00000000000000252945",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252945&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "대전신학대학교_2028학년도_대학입학전형_기본계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 4438,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "대진대학교[본교](경기)",
+      "university": "대진대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000254620",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254620&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "대진대학교_2028학년도_대학입학전형_주요사항.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 57690,
+      "ruleCount": 4,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 18,
+      "candidatePages": [
+        {
+          "page": 53,
+          "score": 8
+        },
+        {
+          "page": 7,
+          "score": 6
+        },
+        {
+          "page": 8,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "덕성여자대학교[본교](서울)",
+      "university": "덕성여자대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000254374",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254374&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "덕성여자대학교_2028학년도_대학입학전형계획.zip",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 20964,
+      "ruleCount": 3,
+      "exactRuleCount": 3,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 22,
+      "candidatePages": [
+        {
+          "page": 2,
+          "score": 15
+        },
+        {
+          "page": 8,
+          "score": 15
+        },
+        {
+          "page": 19,
+          "score": 10
+        }
+      ]
+    },
+    {
+      "raw": "동국대학교[본교](서울)",
+      "university": "동국대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000252380",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252380&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "동국대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 5787,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": []
+    },
+    {
+      "raw": "동국대학교(WISE)[분교](경북)",
+      "university": "동국대학교(WISE)",
+      "campus": "분교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000253210",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253210&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "동국대학교_WISE캠퍼스_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 24274,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 14,
+      "candidatePages": [
+        {
+          "page": 20,
+          "score": 12
+        },
+        {
+          "page": 2,
+          "score": 6
+        },
+        {
+          "page": 21,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "동덕여자대학교[본교](서울)",
+      "university": "동덕여자대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000252289",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252289&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "동덕여자대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 33259,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 15,
+      "candidatePages": [
+        {
+          "page": 27,
+          "score": 7
+        },
+        {
+          "page": 2,
+          "score": 5
+        },
+        {
+          "page": 26,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "동명대학교[본교](부산)",
+      "university": "동명대학교",
+      "campus": "본교",
+      "region": "부산",
+      "type": "사립",
+      "planId": "00000000000000252523",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252523&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "동명대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 17554,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 10,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 9
+        },
+        {
+          "page": 11,
+          "score": 9
+        },
+        {
+          "page": 2,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "동서대학교[본교](부산)",
+      "university": "동서대학교",
+      "campus": "본교",
+      "region": "부산",
+      "type": "사립",
+      "planId": "00000000000000254287",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254287&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "동서대학교_2028학년도_대학입학전형_기본계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 20028,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": [
+        {
+          "page": 16,
+          "score": 6
+        },
+        {
+          "page": 20,
+          "score": 6
+        },
+        {
+          "page": 17,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "동신대학교[본교](전남광주)",
+      "university": "동신대학교",
+      "campus": "본교",
+      "region": "전라남도",
+      "type": "사립",
+      "planId": "00000000000000252929",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252929&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "동신대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 10292,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 6
+        },
+        {
+          "page": 8,
+          "score": 6
+        },
+        {
+          "page": 3,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "동아대학교[본교](부산)",
+      "university": "동아대학교",
+      "campus": "본교",
+      "region": "부산",
+      "type": "사립",
+      "planId": "00000000000000252429",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252429&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "동아대학교_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 23386,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 14,
+      "candidatePages": []
+    },
+    {
+      "raw": "동양대학교[제2캠퍼스](경기)",
+      "university": "동양대학교",
+      "campus": "제2캠퍼스",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000254352",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254352&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": null,
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 9594,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 2,
+      "candidatePages": [
+        {
+          "page": 2,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "동양대학교[본교](경북)",
+      "university": "동양대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000254352",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254352&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "동양대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 9594,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 2,
+      "candidatePages": [
+        {
+          "page": 2,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "동의대학교[본교](부산)",
+      "university": "동의대학교",
+      "campus": "본교",
+      "region": "부산",
+      "type": "사립",
+      "planId": "00000000000000254443",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254443&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "동의대학교_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 60258,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 12,
+      "candidatePages": [
+        {
+          "page": 49,
+          "score": 7
+        },
+        {
+          "page": 51,
+          "score": 7
+        },
+        {
+          "page": 7,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "루터대학교[본교](경기)",
+      "university": "루터대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000252472",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252472&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "루터대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 8601,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 6,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 4
+        },
+        {
+          "page": 6,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "명지대학교[제2캠퍼스](서울)",
+      "university": "명지대학교",
+      "campus": "제2캠퍼스",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000254378",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254378&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "명지대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 13047,
+      "ruleCount": 3,
+      "exactRuleCount": 3,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": []
+    },
+    {
+      "raw": "명지대학교[본교](경기)",
+      "university": "명지대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000254370",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254370&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "명지대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 13047,
+      "ruleCount": 3,
+      "exactRuleCount": 3,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": []
+    },
+    {
+      "raw": "목원대학교[본교](대전)",
+      "university": "목원대학교",
+      "campus": "본교",
+      "region": "대전",
+      "type": "사립",
+      "planId": "00000000000000252437",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252437&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "목원대학교_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 30737,
+      "ruleCount": 3,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 16,
+      "candidatePages": [
+        {
+          "page": 10,
+          "score": 10
+        },
+        {
+          "page": 2,
+          "score": 9
+        },
+        {
+          "page": 9,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "raw": "목포가톨릭대학교[본교](전남광주)",
+      "university": "목포가톨릭대학교",
+      "campus": "본교",
+      "region": "전라남도",
+      "type": "사립",
+      "planId": "00000000000000253219",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253219&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "목포가톨릭대학교_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 21270,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 19,
+      "candidatePages": [
+        {
+          "page": 8,
+          "score": 11
+        },
+        {
+          "page": 12,
+          "score": 5
+        },
+        {
+          "page": 4,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "배재대학교[본교](대전)",
+      "university": "배재대학교",
+      "campus": "본교",
+      "region": "대전",
+      "type": "사립",
+      "planId": "00000000000000253089",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253089&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "배재대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 60846,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 16,
+      "candidatePages": [
+        {
+          "page": 4,
+          "score": 15
+        },
+        {
+          "page": 42,
+          "score": 8
+        },
+        {
+          "page": 41,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "백석대학교[본교](충남)",
+      "university": "백석대학교",
+      "campus": "본교",
+      "region": "충청남도",
+      "type": "사립",
+      "planId": "00000000000000252830",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252830&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "백석대학교_2028학년도_신입생_모집_주요사항.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 21574,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 15,
+      "candidatePages": [
+        {
+          "page": 9,
+          "score": 13
+        },
+        {
+          "page": 8,
+          "score": 7
+        },
+        {
+          "page": 10,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "부산가톨릭대학교[본교](부산)",
+      "university": "부산가톨릭대학교",
+      "campus": "본교",
+      "region": "부산",
+      "type": "사립",
+      "planId": "00000000000000252742",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252742&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "부산가톨릭대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 16073,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 2,
+      "candidatePages": [
+        {
+          "page": 17,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "부산교육대학교[본교](부산)",
+      "university": "부산교육대학교",
+      "campus": "본교",
+      "region": "부산",
+      "type": "국립",
+      "planId": "00000000000000252597",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252597&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "부산대학교_2028학년도_대학입학전형_기본계획_연제캠퍼스.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 42741,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "학생부 정량 환산 미반영",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": [
+        {
+          "page": 28,
+          "score": 6
+        },
+        {
+          "page": 27,
+          "score": 5
+        },
+        {
+          "page": 16,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "부산대학교[본교](부산)",
+      "university": "부산대학교",
+      "campus": "본교",
+      "region": "부산",
+      "type": "국립",
+      "planId": "00000000000000252727",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252727&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "부산대학교_2028학년도_대학입학전형_기본계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 50627,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": [
+        {
+          "page": 28,
+          "score": 6
+        },
+        {
+          "page": 27,
+          "score": 5
+        },
+        {
+          "page": 16,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "부산외국어대학교[본교](부산)",
+      "university": "부산외국어대학교",
+      "campus": "본교",
+      "region": "부산",
+      "type": "사립",
+      "planId": "00000000000000253184",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253184&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "부산외국어대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 10084,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 10,
+      "candidatePages": []
+    },
+    {
+      "raw": "부산장신대학교[본교](경남)",
+      "university": "부산장신대학교",
+      "campus": "본교",
+      "region": "경상남도",
+      "type": "사립",
+      "planId": "00000000000000253301",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253301&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "부산장신대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 4228,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 1,
+      "candidatePages": [
+        {
+          "page": 5,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "삼육대학교[본교](서울)",
+      "university": "삼육대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000255027",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000255027&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "삼육대학교_2028학년도_신입학_기본계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 21212,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 20,
+      "candidatePages": [
+        {
+          "page": 5,
+          "score": 14
+        },
+        {
+          "page": 6,
+          "score": 13
+        },
+        {
+          "page": 16,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "raw": "상명대학교[제2캠퍼스](충남)",
+      "university": "상명대학교",
+      "campus": "제2캠퍼스",
+      "region": "충청남도",
+      "type": "사립",
+      "planId": "00000000000000252257",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252257&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "상명대학교_천안캠퍼스_2028학년도_신입학전형안내.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 37355,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 18,
+      "candidatePages": [
+        {
+          "page": 4,
+          "score": 12
+        },
+        {
+          "page": 21,
+          "score": 11
+        },
+        {
+          "page": 31,
+          "score": 10
+        }
+      ]
+    },
+    {
+      "raw": "상명대학교[본교](서울)",
+      "university": "상명대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253115",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253115&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "상명대학교_서울캠퍼스_2028학년도_신입학전형안내.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 37756,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 20,
+      "candidatePages": [
+        {
+          "page": 22,
+          "score": 15
+        },
+        {
+          "page": 4,
+          "score": 14
+        },
+        {
+          "page": 35,
+          "score": 10
+        }
+      ]
+    },
+    {
+      "raw": "상지대학교[본교](강원)",
+      "university": "상지대학교",
+      "campus": "본교",
+      "region": "강원특별자치도",
+      "type": "사립",
+      "planId": "00000000000000252937",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252937&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "상지대학교_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 33676,
+      "ruleCount": 3,
+      "exactRuleCount": 3,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 24,
+      "candidatePages": []
+    },
+    {
+      "raw": "서강대학교[본교](서울)",
+      "university": "서강대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000254435",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254435&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "서강대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 28819,
+      "ruleCount": 3,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 17,
+      "candidatePages": [
+        {
+          "page": 28,
+          "score": 15
+        },
+        {
+          "page": 29,
+          "score": 11
+        },
+        {
+          "page": 31,
+          "score": 11
+        }
+      ]
+    },
+    {
+      "raw": "서경대학교[본교](서울)",
+      "university": "서경대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000252464",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252464&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "서경대학교_2028학년도_대학입학전형시행계획_주요사항.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 18964,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 12,
+      "candidatePages": [
+        {
+          "page": 15,
+          "score": 10
+        },
+        {
+          "page": 16,
+          "score": 6
+        },
+        {
+          "page": 21,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "서울과학기술대학교[본교](서울)",
+      "university": "서울과학기술대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "국립",
+      "planId": "00000000000000254362",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254362&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "서울과학기술대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 19804,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 6,
+      "candidatePages": [
+        {
+          "page": 16,
+          "score": 6
+        },
+        {
+          "page": 17,
+          "score": 4
+        },
+        {
+          "page": 9,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "서울교육대학교[본교](서울)",
+      "university": "서울교육대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "국립",
+      "planId": "00000000000000252300",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252300&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "서울교육대학교_2028학년도_대학입학전형계획_주요사항.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 4660,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": [
+        {
+          "page": 5,
+          "score": 11
+        }
+      ]
+    },
+    {
+      "raw": "서울기독대학교[본교](서울)",
+      "university": "서울기독대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253262",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253262&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "서울기독대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 15452,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": [
+        {
+          "page": 10,
+          "score": 11
+        },
+        {
+          "page": 12,
+          "score": 11
+        },
+        {
+          "page": 5,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "서울대학교[본교](서울)",
+      "university": "서울대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "국립",
+      "planId": "00000000000000253250",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253250&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "서울대학교_2028학년도_대학_신입학생_입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 28521,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "학생부 정량 환산 미반영",
+      "extractionPriority": "낮음",
+      "markerScore": 3,
+      "candidatePages": [
+        {
+          "page": 36,
+          "score": 3
+        },
+        {
+          "page": 19,
+          "score": 1
+        },
+        {
+          "page": 20,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "서울시립대학교[본교](서울)",
+      "university": "서울시립대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "공립",
+      "planId": "00000000000000253084",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253084&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "서울시립대학교_2028학년도_입학전형_시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 28982,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 12,
+      "candidatePages": [
+        {
+          "page": 21,
+          "score": 6
+        },
+        {
+          "page": 2,
+          "score": 4
+        },
+        {
+          "page": 3,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "raw": "서울신학대학교[본교](경기)",
+      "university": "서울신학대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000252476",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252476&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "서울신학대학교_2028학년도_대학입학전형_시행계획_주요사항.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 14917,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 8,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "서울여자대학교[본교](서울)",
+      "university": "서울여자대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000254064",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254064&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "서울여자대학교_2028학년도_신입학_대학입학전형_시행계획_주요사항.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 29678,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 7,
+      "candidatePages": [
+        {
+          "page": 3,
+          "score": 6
+        },
+        {
+          "page": 26,
+          "score": 6
+        },
+        {
+          "page": 4,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "서울장신대학교[본교](경기)",
+      "university": "서울장신대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000253097",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253097&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "서울장신대학교_2028학년도_대학입학전형시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 2185,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": []
+    },
+    {
+      "raw": "서울한영대학교[본교](서울)",
+      "university": "서울한영대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253258",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253258&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "서울한영대학교_2028학년도_입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 3309,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": [
+        {
+          "page": 5,
+          "score": 11
+        }
+      ]
+    },
+    {
+      "raw": "서원대학교[본교](충북)",
+      "university": "서원대학교",
+      "campus": "본교",
+      "region": "충청북도",
+      "type": "사립",
+      "planId": "00000000000000252173",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252173&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "서원대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 17570,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 24,
+      "candidatePages": [
+        {
+          "page": 12,
+          "score": 18
+        },
+        {
+          "page": 16,
+          "score": 9
+        },
+        {
+          "page": 15,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "선문대학교[본교](충남)",
+      "university": "선문대학교",
+      "campus": "본교",
+      "region": "충청남도",
+      "type": "사립",
+      "planId": "00000000000000252966",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252966&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "선문대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 34673,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": [
+        {
+          "page": 11,
+          "score": 10
+        },
+        {
+          "page": 8,
+          "score": 6
+        },
+        {
+          "page": 10,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "성결대학교[본교](경기)",
+      "university": "성결대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000253570",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253570&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "성결대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 19261,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": [
+        {
+          "page": 8,
+          "score": 6
+        },
+        {
+          "page": 30,
+          "score": 6
+        },
+        {
+          "page": 31,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "성공회대학교[본교](서울)",
+      "university": "성공회대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253873",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253873&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "성공회대학교_2028학년도_입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 13769,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 9,
+          "score": 5
+        },
+        {
+          "page": 8,
+          "score": 4
+        },
+        {
+          "page": 10,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "성균관대학교[본교](서울)",
+      "university": "성균관대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000254993",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254993&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "성균관대학교_2028학년도_입학전형_시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 64014,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 7,
+      "candidatePages": []
+    },
+    {
+      "raw": "성신여자대학교[본교](서울)",
+      "university": "성신여자대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253580",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253580&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "성신여자대학교_2028학년도_대학입학전형_주요사항.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 29104,
+      "ruleCount": 4,
+      "exactRuleCount": 4,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 24,
+      "candidatePages": [
+        {
+          "page": 20,
+          "score": 20
+        },
+        {
+          "page": 19,
+          "score": 17
+        },
+        {
+          "page": 22,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "raw": "세명대학교[본교](충북)",
+      "university": "세명대학교",
+      "campus": "본교",
+      "region": "충청북도",
+      "type": "사립",
+      "planId": "00000000000000252847",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252847&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "세명대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 23217,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": [
+        {
+          "page": 21,
+          "score": 7
+        },
+        {
+          "page": 24,
+          "score": 6
+        },
+        {
+          "page": 2,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "세종대학교[본교](서울)",
+      "university": "세종대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000254082",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254082&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "세종대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 39346,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "높음",
+      "markerScore": 20,
+      "candidatePages": [
+        {
+          "page": 17,
+          "score": 20
+        },
+        {
+          "page": 26,
+          "score": 20
+        },
+        {
+          "page": 24,
+          "score": 10
+        }
+      ]
+    },
+    {
+      "raw": "세한대학교[본교](전남광주)",
+      "university": "세한대학교",
+      "campus": "본교",
+      "region": "전라남도",
+      "type": "사립",
+      "planId": "00000000000000252231",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252231&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "세한대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 9575,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 14,
+      "candidatePages": [
+        {
+          "page": 10,
+          "score": 14
+        },
+        {
+          "page": 2,
+          "score": 9
+        },
+        {
+          "page": 3,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "송원대학교[본교](전남광주)",
+      "university": "송원대학교",
+      "campus": "본교",
+      "region": "광주",
+      "type": "사립",
+      "planId": "00000000000000254906",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254906&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "송원대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 9236,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 3,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 3
+        },
+        {
+          "page": 2,
+          "score": 1
+        },
+        {
+          "page": 6,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "수원가톨릭대학교[본교](경기)",
+      "university": "수원가톨릭대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000252668",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252668&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "수원가톨릭대학교_2028학년도_대학입학전형_기본계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 11605,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 5,
+          "score": 5
+        },
+        {
+          "page": 3,
+          "score": 3
+        },
+        {
+          "page": 4,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "수원대학교[본교](경기)",
+      "university": "수원대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000253540",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253540&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "수원대학교_2028학년도_대학입학전형_기본계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 16665,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 6,
+      "candidatePages": [
+        {
+          "page": 13,
+          "score": 6
+        },
+        {
+          "page": 15,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "숙명여자대학교[본교](서울)",
+      "university": "숙명여자대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253119",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253119&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "숙명여자대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 20797,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 10,
+      "candidatePages": [
+        {
+          "page": 11,
+          "score": 9
+        },
+        {
+          "page": 4,
+          "score": 1
+        },
+        {
+          "page": 12,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "순천향대학교[본교](충남)",
+      "university": "순천향대학교",
+      "campus": "본교",
+      "region": "충청남도",
+      "type": "사립",
+      "planId": "00000000000000253347",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253347&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "순천향대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 42629,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 6,
+      "candidatePages": [
+        {
+          "page": 32,
+          "score": 6
+        },
+        {
+          "page": 2,
+          "score": 2
+        },
+        {
+          "page": 23,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "숭실대학교[본교](서울)",
+      "university": "숭실대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253666",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253666&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "숭실대학교_2028학년도_입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 26785,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "높음",
+      "markerScore": 20,
+      "candidatePages": [
+        {
+          "page": 21,
+          "score": 9
+        },
+        {
+          "page": 23,
+          "score": 8
+        },
+        {
+          "page": 39,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "raw": "신경주대학교[본교](경북)",
+      "university": "신경주대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000252958",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252958&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "신경주대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 7640,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 4,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 4
+        },
+        {
+          "page": 8,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "신라대학교[본교](부산)",
+      "university": "신라대학교",
+      "campus": "본교",
+      "region": "부산",
+      "type": "사립",
+      "planId": "00000000000000252265",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252265&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "신라대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 1949,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 18,
+      "candidatePages": []
+    },
+    {
+      "raw": "신한대학교[제2캠퍼스](경기)",
+      "university": "신한대학교",
+      "campus": "제2캠퍼스",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000255039",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000255039&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "신한대학교_제2캠퍼스_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 21047,
+      "ruleCount": 2,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 10,
+      "candidatePages": [
+        {
+          "page": 19,
+          "score": 8
+        },
+        {
+          "page": 10,
+          "score": 7
+        },
+        {
+          "page": 11,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "raw": "신한대학교[본교](경기)",
+      "university": "신한대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000255031",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000255031&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "신한대학교_본교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 21047,
+      "ruleCount": 2,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 10,
+      "candidatePages": [
+        {
+          "page": 19,
+          "score": 8
+        },
+        {
+          "page": 10,
+          "score": 7
+        },
+        {
+          "page": 11,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "raw": "아신대학교[본교](경기)",
+      "university": "아신대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000254192",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254192&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "아신대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 6252,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 7,
+      "candidatePages": [
+        {
+          "page": 6,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "raw": "아주대학교[본교](경기)",
+      "university": "아주대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000253142",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253142&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "아주대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 27779,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": [
+        {
+          "page": 2,
+          "score": 5
+        },
+        {
+          "page": 6,
+          "score": 3
+        },
+        {
+          "page": 9,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "안양대학교[제2캠퍼스](인천)",
+      "university": "안양대학교",
+      "campus": "제2캠퍼스",
+      "region": "인천",
+      "type": "사립",
+      "planId": "00000000000000252941",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252941&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "안양대학교_제2캠퍼스_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 14185,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 19,
+      "candidatePages": [
+        {
+          "page": 13,
+          "score": 16
+        },
+        {
+          "page": 12,
+          "score": 4
+        },
+        {
+          "page": 14,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "raw": "안양대학교[본교](경기)",
+      "university": "안양대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000252933",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252933&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "안양대학교_본교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 14185,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 19,
+      "candidatePages": [
+        {
+          "page": 13,
+          "score": 16
+        },
+        {
+          "page": 12,
+          "score": 4
+        },
+        {
+          "page": 14,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "raw": "연세대학교[본교](서울)",
+      "university": "연세대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000252227",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252227&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "연세대학교_서울캠퍼스_2028학년도_입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 31794,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 7
+        },
+        {
+          "page": 29,
+          "score": 6
+        },
+        {
+          "page": 15,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "연세대학교(미래)[분교](강원)",
+      "university": "연세대학교(미래)",
+      "campus": "분교",
+      "region": "강원특별자치도",
+      "type": "사립",
+      "planId": "00000000000000254072",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254072&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "연세대학교_미래캠퍼스_2028학년도_입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 48990,
+      "ruleCount": 3,
+      "exactRuleCount": 3,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 18,
+      "candidatePages": [
+        {
+          "page": 30,
+          "score": 14
+        },
+        {
+          "page": 31,
+          "score": 13
+        },
+        {
+          "page": 33,
+          "score": 11
+        }
+      ]
+    },
+    {
+      "raw": "영남대학교[본교](경북)",
+      "university": "영남대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000254599",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254599&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "영남대학교_2028학년도_입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 42007,
+      "ruleCount": 3,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": [
+        {
+          "page": 38,
+          "score": 9
+        },
+        {
+          "page": 5,
+          "score": 7
+        },
+        {
+          "page": 29,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "영남신학대학교[본교](경북)",
+      "university": "영남신학대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000253132",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253132&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "영남신학대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 8397,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": [
+        {
+          "page": 3,
+          "score": 8
+        },
+        {
+          "page": 4,
+          "score": 1
+        },
+        {
+          "page": 5,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "영산대학교[제2캠퍼스](경남)",
+      "university": "영산대학교",
+      "campus": "제2캠퍼스",
+      "region": "경상남도",
+      "type": "사립",
+      "planId": "00000000000000254177",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254177&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "영산대학교_양산캠퍼스_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 13117,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 2,
+          "score": 5
+        },
+        {
+          "page": 3,
+          "score": 5
+        },
+        {
+          "page": 7,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "영산대학교[본교](부산)",
+      "university": "영산대학교",
+      "campus": "본교",
+      "region": "부산",
+      "type": "사립",
+      "planId": "00000000000000254173",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254173&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "영산대학교_해운대캠퍼스_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 13117,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 2,
+          "score": 5
+        },
+        {
+          "page": 3,
+          "score": 5
+        },
+        {
+          "page": 7,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "영산선학대학교[본교](전남광주)",
+      "university": "영산선학대학교",
+      "campus": "본교",
+      "region": "전라남도",
+      "type": "사립",
+      "planId": "00000000000000252638",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252638&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "영산선학대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 4644,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 4,
+          "score": 4
+        },
+        {
+          "page": 3,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "예수대학교[본교](전북)",
+      "university": "예수대학교",
+      "campus": "본교",
+      "region": "전북특별자치도",
+      "type": "사립",
+      "planId": "00000000000000252664",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252664&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "예수대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 10172,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 17,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 13
+        },
+        {
+          "page": 9,
+          "score": 10
+        },
+        {
+          "page": 6,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "raw": "예원예술대학교[본교](전북)",
+      "university": "예원예술대학교",
+      "campus": "본교",
+      "region": "전북특별자치도",
+      "type": "사립",
+      "planId": "00000000000000253288",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253288&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "예원예술대학교_본교_2028학년도_신입생_모집계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 7872,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 12,
+      "candidatePages": [
+        {
+          "page": 6,
+          "score": 12
+        }
+      ]
+    },
+    {
+      "raw": "예원예술대학교[제2캠퍼스](경기)",
+      "university": "예원예술대학교",
+      "campus": "제2캠퍼스",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000253292",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253292&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "예원예술대학교_제2캠퍼스_2028학년도_신입생_모집계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 7872,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 12,
+      "candidatePages": [
+        {
+          "page": 6,
+          "score": 12
+        }
+      ]
+    },
+    {
+      "raw": "용인대학교[본교](경기)",
+      "university": "용인대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000252269",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252269&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "용인대학교_2028학년도_대학입학전형_주요사항.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 44320,
+      "ruleCount": 2,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 7,
+      "candidatePages": []
+    },
+    {
+      "raw": "우석대학교[본교](전북)",
+      "university": "우석대학교",
+      "campus": "본교",
+      "region": "전북특별자치도",
+      "type": "사립",
+      "planId": "00000000000000252507",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252507&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "우석대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 15809,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": [
+        {
+          "page": 9,
+          "score": 8
+        },
+        {
+          "page": 8,
+          "score": 4
+        },
+        {
+          "page": 4,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "raw": "우송대학교[본교](대전)",
+      "university": "우송대학교",
+      "campus": "본교",
+      "region": "대전",
+      "type": "사립",
+      "planId": "00000000000000254295",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254295&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "우송대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 18806,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": [
+        {
+          "page": 8,
+          "score": 9
+        },
+        {
+          "page": 2,
+          "score": 6
+        },
+        {
+          "page": 10,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "울산대학교[본교](울산)",
+      "university": "울산대학교",
+      "campus": "본교",
+      "region": "울산",
+      "type": "사립",
+      "planId": "00000000000000252962",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252962&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "울산대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 29499,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": [
+        {
+          "page": 34,
+          "score": 13
+        },
+        {
+          "page": 24,
+          "score": 11
+        },
+        {
+          "page": 32,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "raw": "원광대학교[본교](전북)",
+      "university": "원광대학교",
+      "campus": "본교",
+      "region": "전북특별자치도",
+      "type": "사립",
+      "planId": "00000000000000252880",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252880&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "원광대학교_2028학년도_입학전형_시행계획안.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 27474,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "높음",
+      "markerScore": 19,
+      "candidatePages": [
+        {
+          "page": 18,
+          "score": 12
+        },
+        {
+          "page": 28,
+          "score": 12
+        },
+        {
+          "page": 20,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "위덕대학교[본교](경북)",
+      "university": "위덕대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000252376",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252376&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "위덕대학교_2028학년도_대학입학전형_기본계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 29015,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": [
+        {
+          "page": 30,
+          "score": 6
+        },
+        {
+          "page": 6,
+          "score": 5
+        },
+        {
+          "page": 7,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "유원대학교[본교](충북)",
+      "university": "유원대학교",
+      "campus": "본교",
+      "region": "충청북도",
+      "type": "사립",
+      "planId": "00000000000000253198",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253198&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "유원대학교_2028학년도_대학입학전형_주요사항.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 14244,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 7,
+      "candidatePages": [
+        {
+          "page": 4,
+          "score": 7
+        },
+        {
+          "page": 5,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "을지대학교[제2캠퍼스](경기)",
+      "university": "을지대학교",
+      "campus": "제2캠퍼스",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000254984",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254984&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "을지대학교_성남캠퍼스_2028학년도_대학입학전형계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 23681,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 14,
+      "candidatePages": [
+        {
+          "page": 20,
+          "score": 10
+        },
+        {
+          "page": 21,
+          "score": 6
+        },
+        {
+          "page": 30,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "을지대학교[제3캠퍼스](경기)",
+      "university": "을지대학교",
+      "campus": "제3캠퍼스",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000254988",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254988&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "을지대학교_의정부캠퍼스_2028학년도_대학입학전형계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 23681,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 14,
+      "candidatePages": [
+        {
+          "page": 20,
+          "score": 10
+        },
+        {
+          "page": 21,
+          "score": 6
+        },
+        {
+          "page": 30,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "을지대학교[본교](대전)",
+      "university": "을지대학교",
+      "campus": "본교",
+      "region": "대전",
+      "type": "사립",
+      "planId": "00000000000000254980",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254980&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "을지대학교_대전캠퍼스_2028학년도_대학입학전형계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 23681,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 14,
+      "candidatePages": [
+        {
+          "page": 20,
+          "score": 10
+        },
+        {
+          "page": 21,
+          "score": 6
+        },
+        {
+          "page": 30,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "이화여자대학교[본교](서울)",
+      "university": "이화여자대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000252511",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252511&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "이화여자대학교_2028학년도_외국인특별전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 1298,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 0,
+      "candidatePages": []
+    },
+    {
+      "raw": "인제대학교[본교](경남)",
+      "university": "인제대학교",
+      "campus": "본교",
+      "region": "경상남도",
+      "type": "사립",
+      "planId": "00000000000000254624",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254624&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "인제대학교_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 28347,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 3,
+          "score": 2
+        },
+        {
+          "page": 22,
+          "score": 2
+        },
+        {
+          "page": 4,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "인천가톨릭대학교[본교](인천)",
+      "university": "인천가톨릭대학교",
+      "campus": "본교",
+      "region": "인천",
+      "type": "사립",
+      "planId": "00000000000000252787",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252787&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "인천가톨릭대학교_강화캠퍼스_2028학년도_신입학전형계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 14196,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 7,
+      "candidatePages": [
+        {
+          "page": 9,
+          "score": 5
+        },
+        {
+          "page": 3,
+          "score": 4
+        },
+        {
+          "page": 8,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "raw": "인천가톨릭대학교[제2캠퍼스](인천)",
+      "university": "인천가톨릭대학교",
+      "campus": "제2캠퍼스",
+      "region": "인천",
+      "type": "사립",
+      "planId": "00000000000000252539",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252539&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "인천가톨릭대학교_송도국제캠퍼스_2028학년도_신입학전형계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 14357,
+      "ruleCount": 2,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 3,
+          "score": 4
+        },
+        {
+          "page": 8,
+          "score": 3
+        },
+        {
+          "page": 9,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "raw": "인천대학교[본교](인천)",
+      "university": "인천대학교",
+      "campus": "본교",
+      "region": "인천",
+      "type": "국립",
+      "planId": "00000000000000254439",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254439&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "인천대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 10189,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": []
+    },
+    {
+      "raw": "인하대학교[본교](인천)",
+      "university": "인하대학교",
+      "campus": "본교",
+      "region": "인천",
+      "type": "사립",
+      "planId": "00000000000000254720",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254720&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "인하대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 21561,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 6,
+      "candidatePages": [
+        {
+          "page": 36,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "장로회신학대학교[본교](서울)",
+      "university": "장로회신학대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000254056",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254056&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "장로회신학대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 14461,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 4,
+      "candidatePages": [
+        {
+          "page": 8,
+          "score": 4
+        },
+        {
+          "page": 7,
+          "score": 2
+        },
+        {
+          "page": 9,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "전남대학교[본교](전남광주)",
+      "university": "전남대학교",
+      "campus": "본교",
+      "region": "광주",
+      "type": "국립",
+      "planId": "00000000000000254336",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254336&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "전남대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 6234,
+      "ruleCount": 3,
+      "exactRuleCount": 3,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": []
+    },
+    {
+      "raw": "전남대학교[제2캠퍼스](전남광주)",
+      "university": "전남대학교",
+      "campus": "제2캠퍼스",
+      "region": "전라남도",
+      "type": "국립",
+      "planId": "00000000000000254939",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254939&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "전남대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 6234,
+      "ruleCount": 3,
+      "exactRuleCount": 3,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 13,
+      "candidatePages": []
+    },
+    {
+      "raw": "전북대학교[본교](전북)",
+      "university": "전북대학교",
+      "campus": "본교",
+      "region": "전북특별자치도",
+      "type": "국립",
+      "planId": "00000000000000254366",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254366&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "전북대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 15619,
+      "ruleCount": 6,
+      "exactRuleCount": 6,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 8,
+      "candidatePages": []
+    },
+    {
+      "raw": "전주교육대학교[본교](전북)",
+      "university": "전주교육대학교",
+      "campus": "본교",
+      "region": "전북특별자치도",
+      "type": "국립",
+      "planId": "00000000000000254743",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254743&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "전주교육대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 538,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "학생부 정량 환산 미반영",
+      "extractionPriority": "낮음",
+      "markerScore": 2,
+      "candidatePages": []
+    },
+    {
+      "raw": "전주대학교[본교](전북)",
+      "university": "전주대학교",
+      "campus": "본교",
+      "region": "전북특별자치도",
+      "type": "사립",
+      "planId": "00000000000000254806",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254806&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "전주대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 23729,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "높음",
+      "markerScore": 17,
+      "candidatePages": [
+        {
+          "page": 4,
+          "score": 9
+        },
+        {
+          "page": 3,
+          "score": 7
+        },
+        {
+          "page": 12,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "raw": "제주국제대학교[본교](제주)",
+      "university": "제주국제대학교",
+      "campus": "본교",
+      "region": "제주특별자치도",
+      "type": "사립",
+      "planId": "00000000000000252488",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252488&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "제주국제대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 21411,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 14,
+      "candidatePages": [
+        {
+          "page": 22,
+          "score": 12
+        },
+        {
+          "page": 21,
+          "score": 6
+        },
+        {
+          "page": 23,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "제주대학교[본교](제주)",
+      "university": "제주대학교",
+      "campus": "본교",
+      "region": "제주특별자치도",
+      "type": "국립",
+      "planId": "00000000000000254344",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254344&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "제주대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 15627,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 19,
+      "candidatePages": []
+    },
+    {
+      "raw": "조선대학교[본교](전남광주)",
+      "university": "조선대학교",
+      "campus": "본교",
+      "region": "광주",
+      "type": "사립",
+      "planId": "00000000000000254520",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254520&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "조선대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 13617,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": []
+    },
+    {
+      "raw": "중부대학교[본교](충남)",
+      "university": "중부대학교",
+      "campus": "본교",
+      "region": "충청남도",
+      "type": "사립",
+      "planId": "00000000000000253595",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253595&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "중부대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 1359,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 6,
+      "candidatePages": []
+    },
+    {
+      "raw": "중앙대학교[본교](서울)",
+      "university": "중앙대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000254319",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254319&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "중앙대학교_2028학년도_입학전형시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 49463,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 7,
+      "candidatePages": [
+        {
+          "page": 48,
+          "score": 7
+        },
+        {
+          "page": 32,
+          "score": 6
+        },
+        {
+          "page": 15,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "중앙대학교[제2캠퍼스](경기)",
+      "university": "중앙대학교",
+      "campus": "제2캠퍼스",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000266913",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000266913&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "중앙대학교_다빈치캠퍼스_2028학년도_입학전형시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 49463,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 7,
+      "candidatePages": [
+        {
+          "page": 48,
+          "score": 7
+        },
+        {
+          "page": 32,
+          "score": 6
+        },
+        {
+          "page": 15,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "중앙승가대학교[본교](경기)",
+      "university": "중앙승가대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000252780",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252780&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "중앙승가대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 2305,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 0,
+      "candidatePages": []
+    },
+    {
+      "raw": "중원대학교[본교](충북)",
+      "university": "중원대학교",
+      "campus": "본교",
+      "region": "충청북도",
+      "type": "사립",
+      "planId": "00000000000000253713",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253713&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "중원대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 8669,
+      "ruleCount": 4,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 10,
+      "candidatePages": []
+    },
+    {
+      "raw": "진주교육대학교[본교](경남)",
+      "university": "진주교육대학교",
+      "campus": "본교",
+      "region": "경상남도",
+      "type": "국립",
+      "planId": "00000000000000252493",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252493&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "진주교육대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 8569,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "학생부 정량 환산 미반영",
+      "extractionPriority": "낮음",
+      "markerScore": 6,
+      "candidatePages": [
+        {
+          "page": 12,
+          "score": 6
+        },
+        {
+          "page": 13,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "차의과학대학교[본교](경기)",
+      "university": "차의과학대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000254348",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254348&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "차의과학대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 22220,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 12,
+      "candidatePages": [
+        {
+          "page": 3,
+          "score": 12
+        },
+        {
+          "page": 6,
+          "score": 12
+        },
+        {
+          "page": 8,
+          "score": 12
+        }
+      ]
+    },
+    {
+      "raw": "창신대학교[본교](경남)",
+      "university": "창신대학교",
+      "campus": "본교",
+      "region": "경상남도",
+      "type": "사립",
+      "planId": "00000000000000252222",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252222&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "창신대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 13530,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 17,
+      "candidatePages": [
+        {
+          "page": 13,
+          "score": 12
+        },
+        {
+          "page": 14,
+          "score": 9
+        },
+        {
+          "page": 12,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "청주교육대학교[본교](충북)",
+      "university": "청주교육대학교",
+      "campus": "본교",
+      "region": "충청북도",
+      "type": "국립",
+      "planId": "00000000000000252452",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252452&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "청주교육대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 5535,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "학생부 정량 환산 미반영",
+      "extractionPriority": "낮음",
+      "markerScore": 6,
+      "candidatePages": [
+        {
+          "page": 8,
+          "score": 6
+        },
+        {
+          "page": 7,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "청주대학교[본교](충북)",
+      "university": "청주대학교",
+      "campus": "본교",
+      "region": "충청북도",
+      "type": "사립",
+      "planId": "00000000000000252811",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252811&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "청주대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 20288,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 16,
+      "candidatePages": [
+        {
+          "page": 14,
+          "score": 8
+        },
+        {
+          "page": 11,
+          "score": 7
+        },
+        {
+          "page": 12,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "초당대학교[본교](전남광주)",
+      "university": "초당대학교",
+      "campus": "본교",
+      "region": "전라남도",
+      "type": "사립",
+      "planId": "00000000000000253645",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253645&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "초당대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 10096,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 10,
+      "candidatePages": [
+        {
+          "page": 14,
+          "score": 8
+        },
+        {
+          "page": 4,
+          "score": 2
+        },
+        {
+          "page": 15,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "총신대학교[본교](서울)",
+      "university": "총신대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253153",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253153&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "총신대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 8930,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "높음",
+      "markerScore": 18,
+      "candidatePages": [
+        {
+          "page": 9,
+          "score": 15
+        },
+        {
+          "page": 8,
+          "score": 9
+        },
+        {
+          "page": 2,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "추계예술대학교[본교](서울)",
+      "university": "추계예술대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000252717",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252717&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "추계예술대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 21591,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 10,
+      "candidatePages": [
+        {
+          "page": 12,
+          "score": 6
+        },
+        {
+          "page": 11,
+          "score": 4
+        },
+        {
+          "page": 13,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "춘천교육대학교[본교](강원)",
+      "university": "춘천교육대학교",
+      "campus": "본교",
+      "region": "강원특별자치도",
+      "type": "국립",
+      "planId": "00000000000000252822",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252822&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "춘천교육대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 687,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "학생부 정량 환산 미반영",
+      "extractionPriority": "낮음",
+      "markerScore": 0,
+      "candidatePages": []
+    },
+    {
+      "raw": "충남대학교[본교](대전)",
+      "university": "충남대학교",
+      "campus": "본교",
+      "region": "대전",
+      "type": "국립",
+      "planId": "00000000000000252519",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252519&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "충남대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 47388,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 19,
+      "candidatePages": [
+        {
+          "page": 28,
+          "score": 13
+        },
+        {
+          "page": 29,
+          "score": 10
+        },
+        {
+          "page": 30,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "raw": "충북대학교[본교](충북)",
+      "university": "충북대학교",
+      "campus": "본교",
+      "region": "충청북도",
+      "type": "국립",
+      "planId": "00000000000000253485",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253485&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "충북대학교_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 31881,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 24,
+      "candidatePages": [
+        {
+          "page": 25,
+          "score": 14
+        },
+        {
+          "page": 27,
+          "score": 14
+        },
+        {
+          "page": 24,
+          "score": 13
+        }
+      ]
+    },
+    {
+      "raw": "칼빈대학교[본교](경기)",
+      "university": "칼빈대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000253282",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253282&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "칼빈대학교_2028학년도_대학입학전형_기본계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 8317,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 7,
+      "candidatePages": [
+        {
+          "page": 7,
+          "score": 5
+        },
+        {
+          "page": 9,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "평택대학교[본교](경기)",
+      "university": "평택대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000254258",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254258&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "평택대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 30830,
+      "ruleCount": 4,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 8,
+      "candidatePages": [
+        {
+          "page": 6,
+          "score": 4
+        },
+        {
+          "page": 18,
+          "score": 4
+        },
+        {
+          "page": 19,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "포항공과대학교[본교](경북)",
+      "university": "포항공과대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000255054",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000255054&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "포항공과대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 7984,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "학생부 정량 환산 미반영",
+      "extractionPriority": "낮음",
+      "markerScore": 0,
+      "candidatePages": []
+    },
+    {
+      "raw": "한경국립대학교[본교](경기)",
+      "university": "한경국립대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "국립",
+      "planId": "00000000000000254910",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254910&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한경국립대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 1660,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 7,
+      "candidatePages": []
+    },
+    {
+      "raw": "한국공학대학교[본교](경기)",
+      "university": "한국공학대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000254702",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254702&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한국공학대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 16392,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 10,
+      "candidatePages": [
+        {
+          "page": 14,
+          "score": 8
+        },
+        {
+          "page": 6,
+          "score": 2
+        },
+        {
+          "page": 7,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "한국교원대학교[본교](충북)",
+      "university": "한국교원대학교",
+      "campus": "본교",
+      "region": "충청북도",
+      "type": "국립",
+      "planId": "00000000000000252460",
+      "sourceStatus": "queued",
+      "fileType": "archive",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252460&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한국교원대학교_2028학년도_대학입학전형_시행계획.zip",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 23678,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "학생부 정량 환산 미반영",
+      "extractionPriority": "낮음",
+      "markerScore": 8,
+      "candidatePages": [
+        {
+          "page": 4,
+          "score": 8
+        },
+        {
+          "page": 3,
+          "score": 6
+        },
+        {
+          "page": 14,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "한국기술교육대학교[본교](충남)",
+      "university": "한국기술교육대학교",
+      "campus": "본교",
+      "region": "충청남도",
+      "type": "사립",
+      "planId": "00000000000000252285",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252285&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한국기술교육대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 14621,
+      "ruleCount": 4,
+      "exactRuleCount": 4,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 19,
+      "candidatePages": [
+        {
+          "page": 12,
+          "score": 19
+        },
+        {
+          "page": 13,
+          "score": 12
+        },
+        {
+          "page": 2,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "한국성서대학교[본교](서울)",
+      "university": "한국성서대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000252754",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252754&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한국성서대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 1198,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 2,
+      "candidatePages": []
+    },
+    {
+      "raw": "한국외국어대학교[본교](서울)",
+      "university": "한국외국어대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000252446",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252446&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한국외국어대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 26443,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "높음",
+      "markerScore": 15,
+      "candidatePages": [
+        {
+          "page": 21,
+          "score": 13
+        },
+        {
+          "page": 8,
+          "score": 9
+        },
+        {
+          "page": 16,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "raw": "한국체육대학교[본교](서울)",
+      "university": "한국체육대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "국립",
+      "planId": "00000000000000254254",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254254&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한국체육대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 27747,
+      "ruleCount": 2,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": [
+        {
+          "page": 4,
+          "score": 9
+        },
+        {
+          "page": 12,
+          "score": 4
+        },
+        {
+          "page": 13,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "한국침례신학대학교[본교](대전)",
+      "university": "한국침례신학대학교",
+      "campus": "본교",
+      "region": "대전",
+      "type": "사립",
+      "planId": "00000000000000252515",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252515&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한국침례신학대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 7594,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 5,
+      "candidatePages": [
+        {
+          "page": 6,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "raw": "한국항공대학교[본교](경기)",
+      "university": "한국항공대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000254489",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254489&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한국항공대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 16264,
+      "ruleCount": 4,
+      "exactRuleCount": 4,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 10,
+      "candidatePages": [
+        {
+          "page": 10,
+          "score": 10
+        },
+        {
+          "page": 11,
+          "score": 6
+        },
+        {
+          "page": 15,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "한남대학교[본교](대전)",
+      "university": "한남대학교",
+      "campus": "본교",
+      "region": "대전",
+      "type": "사립",
+      "planId": "00000000000000254340",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254340&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한남대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 27401,
+      "ruleCount": 2,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "높음",
+      "markerScore": 18,
+      "candidatePages": [
+        {
+          "page": 3,
+          "score": 12
+        },
+        {
+          "page": 11,
+          "score": 11
+        },
+        {
+          "page": 12,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "raw": "한동대학교[본교](경북)",
+      "university": "한동대학교",
+      "campus": "본교",
+      "region": "경상북도",
+      "type": "사립",
+      "planId": "00000000000000252154",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252154&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한동대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": true,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 29927,
+      "ruleCount": 2,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": [
+        {
+          "page": 14,
+          "score": 9
+        },
+        {
+          "page": 15,
+          "score": 9
+        },
+        {
+          "page": 10,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "한라대학교[본교](강원)",
+      "university": "한라대학교",
+      "campus": "본교",
+      "region": "강원특별자치도",
+      "type": "사립",
+      "planId": "00000000000000253165",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253165&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한라대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 816,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 4,
+      "candidatePages": []
+    },
+    {
+      "raw": "한림대학교[본교](강원)",
+      "university": "한림대학교",
+      "campus": "본교",
+      "region": "강원특별자치도",
+      "type": "사립",
+      "planId": "00000000000000252498",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252498&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한림대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 28518,
+      "ruleCount": 2,
+      "exactRuleCount": 2,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": [
+        {
+          "page": 8,
+          "score": 5
+        },
+        {
+          "page": 9,
+          "score": 5
+        },
+        {
+          "page": 3,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "raw": "한서대학교[본교](충남)",
+      "university": "한서대학교",
+      "campus": "본교",
+      "region": "충청남도",
+      "type": "사립",
+      "planId": "00000000000000253242",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253242&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한서대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 17189,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 3,
+      "candidatePages": [
+        {
+          "page": 17,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "raw": "한성대학교[본교](서울)",
+      "university": "한성대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253193",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253193&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한성대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 18964,
+      "ruleCount": 5,
+      "exactRuleCount": 3,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 4,
+      "candidatePages": [
+        {
+          "page": 4,
+          "score": 2
+        },
+        {
+          "page": 10,
+          "score": 2
+        },
+        {
+          "page": 11,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "한세대학교[본교](경기)",
+      "university": "한세대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000254456",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254456&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한세대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 13001,
+      "ruleCount": 4,
+      "exactRuleCount": 0,
+      "verificationStatus": "공개 정량분만 계산 가능",
+      "extractionPriority": "낮음",
+      "markerScore": 8,
+      "candidatePages": [
+        {
+          "page": 6,
+          "score": 8
+        },
+        {
+          "page": 13,
+          "score": 4
+        },
+        {
+          "page": 15,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "한신대학교[본교](경기)",
+      "university": "한신대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000252188",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252188&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한신대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 13016,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 14,
+      "candidatePages": [
+        {
+          "page": 15,
+          "score": 13
+        },
+        {
+          "page": 3,
+          "score": 1
+        },
+        {
+          "page": 6,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "한양대학교[본교](서울)",
+      "university": "한양대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253276",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253276&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한양대학교_서울캠퍼스_2028학년도_입학전형시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 27569,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 9,
+      "candidatePages": [
+        {
+          "page": 34,
+          "score": 6
+        },
+        {
+          "page": 35,
+          "score": 3
+        },
+        {
+          "page": 30,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "raw": "한양대학교(ERICA)[분교](경기)",
+      "university": "한양대학교(ERICA)",
+      "campus": "분교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000254757",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000254757&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한양대학교_ERICA_2028학년도_입학전형시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 31636,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "높음",
+      "markerScore": 15,
+      "candidatePages": [
+        {
+          "page": 32,
+          "score": 12
+        },
+        {
+          "page": 12,
+          "score": 8
+        },
+        {
+          "page": 33,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "raw": "한일장신대학교[본교](전북)",
+      "university": "한일장신대학교",
+      "campus": "본교",
+      "region": "전북특별자치도",
+      "type": "사립",
+      "planId": "00000000000000252261",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252261&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "한일장신대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 9983,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 8,
+      "candidatePages": [
+        {
+          "page": 6,
+          "score": 7
+        },
+        {
+          "page": 2,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "협성대학교[본교](경기)",
+      "university": "협성대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000252296",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252296&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "협성대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 17426,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "높음",
+      "markerScore": 15,
+      "candidatePages": [
+        {
+          "page": 5,
+          "score": 14
+        },
+        {
+          "page": 15,
+          "score": 12
+        },
+        {
+          "page": 16,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "raw": "호남대학교[본교](전남광주)",
+      "university": "호남대학교",
+      "campus": "본교",
+      "region": "광주",
+      "type": "사립",
+      "planId": "00000000000000252713",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252713&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "호남대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 3280,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 14,
+      "candidatePages": []
+    },
+    {
+      "raw": "호남신학대학교[본교](전남광주)",
+      "university": "호남신학대학교",
+      "campus": "본교",
+      "region": "광주",
+      "type": "사립",
+      "planId": "00000000000000253628",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253628&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "호남신학대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 6137,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "보통",
+      "markerScore": 10,
+      "candidatePages": [
+        {
+          "page": 3,
+          "score": 9
+        },
+        {
+          "page": 4,
+          "score": 5
+        },
+        {
+          "page": 2,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "raw": "호서대학교[본교](충남)",
+      "university": "호서대학교",
+      "campus": "본교",
+      "region": "충청남도",
+      "type": "사립",
+      "planId": "00000000000000252468",
+      "sourceStatus": "queued",
+      "fileType": "hwp",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000252468&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "호서대학교_2028학년도_대학입학전형_시행계획.hwp",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 5745,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "낮음",
+      "markerScore": 0,
+      "candidatePages": []
+    },
+    {
+      "raw": "홍익대학교[본교](서울)",
+      "university": "홍익대학교",
+      "campus": "본교",
+      "region": "서울",
+      "type": "사립",
+      "planId": "00000000000000253202",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253202&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "홍익대학교_서울캠퍼스_2028학년도_입학전형시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 51483,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": [
+        {
+          "page": 21,
+          "score": 10
+        },
+        {
+          "page": 47,
+          "score": 10
+        },
+        {
+          "page": 48,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "raw": "홍익대학교[제2캠퍼스](세종)",
+      "university": "홍익대학교",
+      "campus": "제2캠퍼스",
+      "region": "세종",
+      "type": "사립",
+      "planId": "00000000000000253206",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253206&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "홍익대학교_세종캠퍼스_2028학년도_입학전형시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 51485,
+      "ruleCount": 1,
+      "exactRuleCount": 0,
+      "verificationStatus": "세부 계산식 미공개",
+      "extractionPriority": "보통",
+      "markerScore": 11,
+      "candidatePages": [
+        {
+          "page": 21,
+          "score": 10
+        },
+        {
+          "page": 47,
+          "score": 10
+        },
+        {
+          "page": 48,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "raw": "화성의과학대학교[본교](경기)",
+      "university": "화성의과학대학교",
+      "campus": "본교",
+      "region": "경기도",
+      "type": "사립",
+      "planId": "00000000000000253741",
+      "sourceStatus": "queued",
+      "fileType": "pdf",
+      "sourceUrl": "https://sam.adiga.kr/common/downloadFile.do?fileId=00000000000000253741&fileSn=1&filePath=kcu.fileStorePath",
+      "sourceName": "화성의과학대학교_2028학년도_대학입학전형_시행계획.pdf",
+      "localSourceAvailable": false,
+      "extractionStatus": "추출 완료",
+      "extractedChars": 14049,
+      "ruleCount": 1,
+      "exactRuleCount": 1,
+      "verificationStatus": "계산 가능 전형 있음",
+      "extractionPriority": "낮음",
+      "markerScore": 0,
+      "candidatePages": []
+    }
+  ]
+}

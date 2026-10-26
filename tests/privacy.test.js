@@ -61,6 +61,13 @@ test("선택한 전형은 모집단위·학생부 배점·최저점과 실질점
   assert.match(app, /Math\.round\(\(maximum - minimum\) \* 100\) \/ 100/);
 });
 
+test("세부 기준 미공개 전형은 시행계획의 한계와 최종 모집요강 확인 시점을 설명한다", () => {
+  assert.match(app, /시행계획에 세부 산출 기준이 없어 현재 확정 계산할 수 없습니다/);
+  assert.match(app, /2028학년도 최종 모집요강을 공개하면 반드시 다시 확인하세요/);
+  assert.match(app, /석차등급 환산표, 진로선택·성취도 반영법, 출결 환산표/);
+  assert.match(app, /rule\.verificationStatus/);
+});
+
 test("모바일 화면은 결과·전형 카드와 입력 도구를 한 열로 재배치한다", () => {
   assert.match(styles, /@media \(max-width: 760px\)/);
   assert.match(styles, /\.result-top \{[^}]*flex-direction: column/);

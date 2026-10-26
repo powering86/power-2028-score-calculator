@@ -41,6 +41,19 @@ const semesterLabel = (rule) => {
 const quickModeLabel = (rule) =>
   rule.quickMode ||
   (rule.status === "계산 가능" ? "상세 입력 필요" : "시행계획상 계산 불가");
+const statusLabel = (status) =>
+  status === "모집요강 확인 필요"
+    ? "시행계획 세부 기준 미공개 · 모집요강 확인 필요"
+    : status;
+const finalGuideNotice = (rule, gaps = []) => {
+  if (!["모집요강 확인 필요", "상세 기준 미공개"].includes(rule.status))
+    return "";
+  const known = rule.verificationStatus || rule.formula || "시행계획에 공개된 범위만 확인됨";
+  const missing = gaps.length
+    ? gaps.join(" · ")
+    : "정확한 환산에 필요한 세부 산식 또는 환산표";
+  return `<section class="final-guide-notice" role="note" aria-label="최종 모집요강 확인 안내"><b>시행계획에 세부 산출 기준이 없어 현재 확정 계산할 수 없습니다.</b><p>2028학년도 대학입학전형 시행계획은 전형의 큰 틀을 안내하는 자료입니다. 이 전형은 정확한 점수 산출에 필요한 세부 내용이 시행계획에 모두 공개되지 않았으므로, 누락된 값을 임의로 가정하지 않습니다.</p><dl><div><dt>시행계획에서 확인된 내용</dt><dd>${esc(known)}</dd></div><div><dt>현재 공개되지 않은 기준</dt><dd>${esc(missing)}</dd></div></dl><p class="final-guide-action"><strong>확인 시점:</strong> 해당 대학이 2028학년도 최종 모집요강을 공개하면 반드시 다시 확인하세요.</p><p><strong>확인할 항목:</strong> 석차등급 환산표, 진로선택·성취도 반영법, 출결 환산표, 반영 교과·과목 수, 모집단위별 예외, 소수점 반올림·절사 기준</p></section>`;
+};
 const unitLabel = (rule) =>
   rule.applicableUnits?.length ? rule.applicableUnits.join(" · ") : "전형별 모집단위 확인";
 const studentRecordWeightLabel = (rule) => {
@@ -187,7 +200,7 @@ function showUniversity(raw, btn) {
   $("#ruleCards").innerHTML = rules
     .map(
       (r) =>
-        `<article class="rule-card"><div><span class="badge ${r.status === "계산 가능" ? "" : "warn"}">${esc(r.status)}</span><h3>${esc(r.admissionName)}</h3><p><b>모집단위</b> ${esc(unitLabel(r))}</p><p>${esc(r.selectionRule?.note || r.formula)}</p><small>근거 ${esc(Evidence.label(r.evidence))}</small></div><button data-rule="${r.id}">선택</button></article>`,
+        `<article class="rule-card"><div><span class="badge ${r.status === "계산 가능" ? "" : "warn"}">${esc(statusLabel(r.status))}</span><h3>${esc(r.admissionName)}</h3><p><b>모집단위</b> ${esc(unitLabel(r))}</p><p>${esc(r.selectionRule?.note || r.formula)}</p><small>근거 ${esc(Evidence.label(r.evidence))}</small></div><button data-rule="${r.id}">선택</button></article>`,
     )
     .join("");
   $$("[data-rule]").forEach(
@@ -202,7 +215,7 @@ function selectRule(rule) {
     gaps = ScoreValidator.disclosureGaps(rule);
   updateRequiredFields(rule);
   $("#resultView").innerHTML =
-    `<div class="result-top"><div><span class="badge ${rule.status === "계산 가능" ? "" : "warn"}">${esc(rule.status)}</span><h3>${esc(rule.university)} ${esc(rule.campus)} · ${esc(rule.admissionName)}</h3><p>${esc(rule.admissionType)} · 모집단위 ${esc(unitLabel(rule))}</p></div></div><div class="metrics"><div class="metric">학생부 정량 반영<b>${esc(studentRecordWeightLabel(rule))}</b></div><div class="metric">점수 범위<b>${esc(scoreRangeLabel(rule))}</b></div><div class="metric">반영학기<b>${esc(semesterLabel(rule))}</b></div><div class="metric">선택방식<b>${esc(selectionLabel(rule))}</b></div><div class="metric">출결<b>${esc(ScoreValidator.attendanceStatus(rule))}</b></div><div class="metric">간편입력<b>${esc(quickModeLabel(rule))}</b></div></div><div class="formula"><b>필요 입력</b><p>${req.map(esc).join(" · ") || "추가 성적 입력 없음"}</p>${gaps.length ? `<b>계산 제한 사유</b><p>${gaps.map(esc).join(" · ")}</p>` : ""}<b>적용 공식</b><p>${esc(rule.formula)}</p></div><div class="evidence"><b>원문 근거</b><p>${esc(Evidence.label(rule.evidence))} · ${esc(rule.verificationStatus)}</p><a href="${esc(Evidence.href(rule.evidence))}" ${Evidence.isExternal(rule.evidence) ? 'target="_blank" rel="noreferrer"' : "download"}>시행계획 원문 ${Evidence.isExternal(rule.evidence) ? "확인" : "다운로드"}</a></div>`;
+    `<div class="result-top"><div><span class="badge ${rule.status === "계산 가능" ? "" : "warn"}">${esc(statusLabel(rule.status))}</span><h3>${esc(rule.university)} ${esc(rule.campus)} · ${esc(rule.admissionName)}</h3><p>${esc(rule.admissionType)} · 모집단위 ${esc(unitLabel(rule))}</p></div></div>${finalGuideNotice(rule, gaps)}<div class="metrics"><div class="metric">학생부 정량 반영<b>${esc(studentRecordWeightLabel(rule))}</b></div><div class="metric">점수 범위<b>${esc(scoreRangeLabel(rule))}</b></div><div class="metric">반영학기<b>${esc(semesterLabel(rule))}</b></div><div class="metric">선택방식<b>${esc(selectionLabel(rule))}</b></div><div class="metric">출결<b>${esc(ScoreValidator.attendanceStatus(rule))}</b></div><div class="metric">간편입력<b>${esc(quickModeLabel(rule))}</b></div></div><div class="formula"><b>필요 입력</b><p>${req.map(esc).join(" · ") || "추가 성적 입력 없음"}</p>${gaps.length ? `<b>계산 제한 사유</b><p>${gaps.map(esc).join(" · ")}</p>` : ""}<b>적용 공식</b><p>${esc(rule.formula)}</p></div><div class="evidence"><b>원문 근거</b><p>${esc(Evidence.label(rule.evidence))} · ${esc(rule.verificationStatus)}</p><a href="${esc(Evidence.href(rule.evidence))}" ${Evidence.isExternal(rule.evidence) ? 'target="_blank" rel="noreferrer"' : "download"}>시행계획 원문 ${Evidence.isExternal(rule.evidence) ? "확인" : "다운로드"}</a></div>`;
   $("#result").scrollIntoView({ behavior: "smooth" });
 }
 function calculate() {

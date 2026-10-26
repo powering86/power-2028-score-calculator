@@ -2,6 +2,22 @@
 .required-field {
   background: #fff6cc !important;
 }
+.final-guide-notice {
+  margin: 18px 0;
+  padding: 18px 20px;
+  border: 1px solid #e6bd54;
+  border-left: 6px solid #d59600;
+  border-radius: 12px;
+  background: #fff8e5;
+  color: #4f421f;
+}
+.final-guide-notice > b { display: block; font-size: 17px; color: #6f4700; }
+.final-guide-notice p { margin: 8px 0; line-height: 1.6; }
+.final-guide-notice dl { margin: 12px 0; display: grid; gap: 8px; }
+.final-guide-notice dl div { display: grid; grid-template-columns: 180px 1fr; gap: 12px; }
+.final-guide-notice dt { font-weight: 800; }
+.final-guide-notice dd { margin: 0; }
+.final-guide-notice .final-guide-action { padding-top: 10px; border-top: 1px solid #e6cf91; }
 .required-field input,
 .required-field select {
   border-color: #b78000;
@@ -19,6 +35,7 @@
   .attendance label { max-width: none; }
   .empty { padding: 28px 16px; }
   dialog { width: calc(100% - 24px); padding: 22px; }
+  .final-guide-notice dl div { grid-template-columns: 1fr; gap: 2px; }
 }
 
 .excel-review { width: min(1180px, calc(100% - 32px)); max-width: 1180px; }

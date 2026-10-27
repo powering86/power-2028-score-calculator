@@ -68,6 +68,25 @@ test("세부 기준 미공개 전형은 시행계획의 한계와 최종 모집�
   assert.match(app, /rule\.verificationStatus/);
 });
 
+test("현재 학기 입력 범위와 나이스 성적 파일 준비 방법을 안내한다", () => {
+  const html = readFileSync(path.resolve(__dirname, "../dist/index.html"), "utf8");
+  assert.match(html, /현재 나온 학기까지만 입력해도 됩니다/);
+  assert.match(html, /성적 → 성적조회 → 개인별성적일람표조회/);
+  assert.match(html, /나이스 엑셀 불러오기/);
+  assert.match(app, /현재 학기 기준 참고용 결과/);
+  assert.match(app, /이후 학기 성적이나 3학년 1학기 성적을 임의로 예측해 넣지 않았습니다/);
+});
+
+test("대학명·지역·캠퍼스를 서로 다른 조건으로 검색한다", () => {
+  const html = readFileSync(path.resolve(__dirname, "../dist/index.html"), "utf8");
+  assert.match(html, /id="search"[^>]*placeholder="예: 서울대학교"/);
+  assert.match(html, /id="regionFilter"/);
+  assert.match(html, /id="campusFilter"/);
+  assert.match(app, /u\.name\.includes\(q\)/);
+  assert.match(app, /u\.region === region/);
+  assert.match(app, /u\.campus === campus/);
+});
+
 test("모바일 화면은 결과·전형 카드와 입력 도구를 한 열로 재배치한다", () => {
   assert.match(styles, /@media \(max-width: 760px\)/);
   assert.match(styles, /\.result-top \{[^}]*flex-direction: column/);

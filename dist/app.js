@@ -163,9 +163,14 @@ function loadSaved() {
   } catch {}
 }
 function renderUniversityList() {
-  const q = $("#search").value.trim();
-  const all = window.UNIVERSITY_CATALOG.filter((u) =>
-    (u.name + u.campus + u.region).includes(q),
+  const q = $("#search").value.trim(),
+    region = $("#regionFilter").value,
+    campus = $("#campusFilter").value;
+  const all = window.UNIVERSITY_CATALOG.filter(
+    (u) =>
+      (!q || u.name.includes(q)) &&
+      (!region || u.region === region) &&
+      (!campus || u.campus === campus),
   );
   const coverage = new Map((window.COVERAGE_ROWS || []).map((x) => [x.raw, x]));
   $("#uniCount").textContent = all.length;
@@ -179,6 +184,45 @@ function renderUniversityList() {
   $$(".uni-item").forEach(
     (b) => (b.onclick = () => showUniversity(b.dataset.raw, b)),
   );
+}
+function initializeUniversityFilters() {
+  const fill = (selector, values, firstLabel) => {
+    $(selector).innerHTML =
+      `<option value="">${firstLabel}</option>` +
+      [...new Set(values)]
+        .filter(Boolean)
+        .sort((a, b) => a.localeCompare(b, "ko"))
+        .map((value) => `<option value="${esc(value)}">${esc(value)}</option>`)
+        .join("");
+  };
+  fill("#regionFilter", UNIVERSITY_CATALOG.map((u) => u.region), "전체 지역");
+  fill("#campusFilter", UNIVERSITY_CATALOG.map((u) => u.campus), "전체 캠퍼스");
+}
+function meaningfulCourses(inputCourses) {
+  return inputCourses.filter(
+    (course) =>
+      course.name ||
+      course.credits != null ||
+      course.rankGrade != null ||
+      course.achievement ||
+      course.rawScore != null,
+  );
+}
+function inputScopeNotice(rule, inputCourses) {
+  const entered = meaningfulCourses(inputCourses);
+  if (!entered.length) return "";
+  const latest = entered.reduce(
+    (best, course) =>
+      Number(course.grade) * 10 + Number(course.semester) > best.value
+        ? { value: Number(course.grade) * 10 + Number(course.semester), label: `${course.grade}학년 ${course.semester}학기` }
+        : best,
+    { value: 0, label: "" },
+  );
+  const required = String(rule.semesters?.through || "3-1").match(/(\d)[^\d]?(\d)/),
+    requiredValue = required ? Number(required[1]) * 10 + Number(required[2]) : 31,
+    requiredLabel = required ? `${required[1]}학년 ${required[2]}학기` : "3학년 1학기";
+  if (latest.value >= requiredValue) return "";
+  return `<div class="current-term-result" role="status"><b>현재 학기 기준 참고용 결과</b><p>입력된 성적은 ${esc(latest.label)}까지이고, 이 전형의 통상 반영 범위는 ${esc(requiredLabel)}까지입니다. 아래 값은 현재 입력된 과목만 사용한 중간 결과이며, 이후 학기 성적이나 3학년 1학기 성적을 임의로 예측해 넣지 않았습니다. 실제 성적이 나오면 다시 불러와 계산하세요.</p><p>부산교육청 진학 PEN AI의 3학년 1학기 기준 예상등급은 참고 범위이며 대학별 확정 환산점수와 다릅니다.</p></div>`;
 }
 function showUniversity(raw, btn) {
   $$(".uni-item").forEach((x) => x.classList.toggle("active", x === btn));
@@ -246,6 +290,10 @@ function calculate() {
   const inputCourses = courses(),
     inputAttendance = attendance(),
     out = ScoreCalculator.calculate(r, inputCourses, inputAttendance);
+  $("#resultView").insertAdjacentHTML(
+    "beforeend",
+    inputScopeNotice(r, inputCourses),
+  );
   if (out.blocked) {
     const gaps = ScoreValidator.disclosureGaps(r);
     $("#resultView").insertAdjacentHTML(
@@ -437,6 +485,14 @@ $("#localSave").onchange = (e) =>
   e.target.checked ? saveMaybe() : localStorage.removeItem("power2028-record");
 $$("[data-att]").forEach((x) => (x.oninput = saveMaybe));
 $("#search").oninput = renderUniversityList;
+$("#regionFilter").onchange = renderUniversityList;
+$("#campusFilter").onchange = renderUniversityList;
+$("#clearUniversityFilters").onclick = () => {
+  $("#search").value = "";
+  $("#regionFilter").value = "";
+  $("#campusFilter").value = "";
+  renderUniversityList();
+};
 $("#calculateBtn").onclick = calculate;
 $("#exportJson").onclick = () =>
   download(
@@ -520,6 +576,7 @@ loadSaved();
 if (!$("#courseTable tbody tr")) {
   addRow();
 }
+initializeUniversityFilters();
 renderUniversityList();
 $("#catalogCount").textContent =
   COVERAGE_SUMMARY?.catalogCount || UNIVERSITY_CATALOG.length;

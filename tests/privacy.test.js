@@ -68,11 +68,14 @@ test("세부 기준 미공개 전형은 시행계획의 한계와 최종 모집�
   assert.match(app, /rule\.verificationStatus/);
 });
 
-test("현재 학기 입력 범위와 나이스 성적 파일 준비 방법을 안내한다", () => {
+test("학생에게 현재 학기 입력 범위와 성적표 사진 사용 순서를 안내한다", () => {
   const html = readFileSync(path.resolve(__dirname, "../dist/index.html"), "utf8");
   assert.match(html, /현재 나온 학기까지만 입력해도 됩니다/);
-  assert.match(html, /성적 → 성적조회 → 개인별성적일람표조회/);
-  assert.match(html, /나이스 엑셀 불러오기/);
+  assert.match(html, /성적표 사진 한 장으로 시작하세요/);
+  assert.match(html, /사진 올리기/);
+  assert.match(html, /인식 결과 확인/);
+  assert.match(html, /학교에서 받은 엑셀 불러오기/);
+  assert.doesNotMatch(html, /학교 교직원용 나이스/);
   assert.match(app, /현재 학기 기준 참고용 결과/);
   assert.match(app, /이후 학기 성적이나 3학년 1학기 성적을 임의로 예측해 넣지 않았습니다/);
 });

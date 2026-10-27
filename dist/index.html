@@ -27,8 +27,8 @@
           <p class="eyebrow">2028 ADMISSION SCORE LAB</p>
           <h1>내 학생부,<br /><em>대학의 방식으로</em> 다시 보기</h1>
           <p>
-            대학별 반영 교과·상위 과목·성취도·출결 기준을 원문 근거와 함께
-            계산합니다.
+            학생이 성적표를 사진으로 올리면 과목을 인식하고, 대학별 반영
+            교과·상위 과목·성취도·출결 기준에 맞춰 계산합니다.
           </p>
         </div>
         <div class="hero-card">
@@ -113,26 +113,20 @@
           </div>
         </div>
         <div id="detailPanel" class="panel">
-          <details class="download-guide" open>
-            <summary>어떤 성적 파일을 어디서 받아야 하나요?</summary>
-            <div class="download-guide-grid">
-              <div>
-                <b>학교 교직원용 나이스</b>
-                <ol>
-                  <li>나이스에서 <strong>성적 → 성적조회 → 개인별성적일람표조회</strong>로 이동</li>
-                  <li>학년도·학기와 학생을 선택한 뒤 조회</li>
-                  <li><strong>엑셀 출력/다운로드</strong>로 받은 <code>.xlsx</code> 파일 저장</li>
-                  <li>아래 <strong>나이스 엑셀 불러오기</strong>에서 파일 선택</li>
-                </ol>
-              </div>
-              <div>
-                <b>학생·학부모</b>
-                <p>나이스플러스 또는 나이스 학부모서비스에서 성적표를 확인하세요. 화면에 엑셀 저장 기능이 없으면 성적표 사진을 올리거나 직접 입력하고, 필요한 경우 학교에 개인별 성적 자료를 요청하세요.</p>
-                <p><a href="https://www.neis.go.kr" target="_blank" rel="noreferrer">나이스 대국민서비스</a> · <a href="https://parents.neis.go.kr" target="_blank" rel="noreferrer">나이스 학부모서비스</a></p>
-              </div>
+          <section class="student-start-guide" aria-labelledby="studentStartTitle">
+            <div>
+              <p class="eyebrow">학생용 사용 방법</p>
+              <h3 id="studentStartTitle">성적표 사진 한 장으로 시작하세요</h3>
+              <p>학교에서 받은 성적표나 나이스에서 확인한 성적표를 휴대전화로 촬영한 뒤 아래에서 올리면 됩니다.</p>
             </div>
-            <p class="privacy-inline"><strong>개인정보:</strong> 이름·학번·주민등록번호는 가리거나 삭제해도 됩니다. 업로드한 성적 파일은 서버로 보내지 않고 이 브라우저 안에서만 읽습니다.</p>
-          </details>
+            <ol>
+              <li><b>성적표 준비</b><span>이름·학번 등 개인정보는 가리고, 과목명과 점수가 선명하게 보이도록 촬영</span></li>
+              <li><b>사진 올리기</b><span>‘카메라로 찍기 / 사진 선택’을 눌러 성적표 사진 선택</span></li>
+              <li><b>인식 결과 확인</b><span>과목명·학점·등급·성취도를 원본 성적표와 비교하고 잘못 읽은 값 수정</span></li>
+              <li><b>대학 선택·계산</b><span>대학·캠퍼스·전형을 선택한 뒤 환산점수와 계산 과정 확인</span></li>
+            </ol>
+            <p class="privacy-inline"><strong>사진은 외부 서버로 전송되지 않습니다.</strong> 이 브라우저 안에서만 글자를 인식하며, 확인한 과목만 성적 입력표에 추가합니다.</p>
+          </section>
           <div class="current-term-guide" role="note">
             <b>성적은 현재 나온 학기까지만 입력하세요.</b>
             <p>프로그램은 입력된 학기까지만 이용해 중간 결과를 보여줍니다. 아직 나오지 않은 2학년 2학기·3학년 1학기 성적을 임의로 만들지 않으며, 3학년 1학기 이전이면 결과 화면에 ‘현재 학기 기준 참고용’이라고 표시합니다. 실제 3학년 1학기 성적이 나오면 파일을 다시 불러와 최종 기준으로 계산하세요.</p>
@@ -141,11 +135,11 @@
             <div class="ocr-intro">
               <div>
                 <span class="camera-mark">◉</span>
-                <p class="eyebrow">LOCAL PHOTO OCR</p>
-                <h3 id="ocrTitle">성적표를 찍어 과목을 불러오세요</h3>
+                <p class="eyebrow">성적표 사진 인식</p>
+                <h3 id="ocrTitle">성적표 사진을 올려 과목을 불러오세요</h3>
                 <p>
                   이미지와 인식 결과는 이 브라우저 안에서만 처리됩니다.
-                  이름·학번·주민등록번호는 가리고 촬영하세요.
+                  이름·학번은 가리고, 표가 수평으로 크게 나오도록 촬영하세요.
                 </p>
               </div>
               <label class="capture-btn"
@@ -223,7 +217,7 @@
                 type="file"
                 accept=".csv,text/csv" /></label
             ><label class="file-btn"
-              >나이스 엑셀 불러오기<input
+              >학교에서 받은 엑셀 불러오기<input
                 id="neisExcelInput"
                 type="file"
                 accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" /></label
@@ -239,6 +233,7 @@
             ><button id="clearAll" class="danger">전체 삭제</button>
           </div>
           <p id="excelImportStatus" class="note" aria-live="polite"></p>
+          <p class="note">사진 인식이 어려울 때만 직접 입력하거나 학교에서 받은 개인 성적 엑셀(.xlsx)을 이용하세요.</p>
           <div id="inputRequirementGuide" class="info-card" aria-live="polite">
             대학·전형을 선택하면 정확 계산에 필요한 입력 열을 안내합니다.
           </div>
